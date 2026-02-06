@@ -1,0 +1,88 @@
+header .header-top{
+    background-color: #000;
+    padding: 1rem 5%;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    position: relative;
+}
+header .header-top img{
+    width: 20%;
+}
+header .header-top p{
+    margin: 0;
+    color: #ebebeb;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+}
+header .header-top .exp{
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.4rem 1.5rem;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+header .header-top .exp span{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #000;
+    line-height: normal;
+}
+header .header-top .exp p{
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #000;
+    font-style: normal;
+}
+header .header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    padding-left: 5%;
+}
+header .header-bottom-content{
+    width: 38%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem
+}
+header .header-bottom-content p{
+    width: 45%;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+}
+header .header-bottom-images{
+    width: 60%;
+    background-color: #000;
+    border-top-left-radius: 100px;
+    padding: 1rem;
+}
+header .header-bottom-images span{
+    display: block;
+    text-align: center;
+    color: #ebebeb;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+header .header-bottom-images .logo-row{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 0.7rem;
+}
+header .header-bottom-images .logo-row img{
+    width: 10%;
+    object-fit: contain;
+}
