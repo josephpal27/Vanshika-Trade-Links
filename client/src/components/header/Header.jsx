@@ -4,6 +4,10 @@ import partner1 from '../../assets/images/partners/1.png';
 import partner2 from '../../assets/images/partners/2.png';
 import partner3 from '../../assets/images/partners/3.png';
 import partner4 from '../../assets/images/partners/4.png';
+import headIcon1 from '../../assets/images/icons/best-price.png';
+import headIcon2 from '../../assets/images/icons/validation.png';
+import headIcon3 from '../../assets/images/icons/shield.png';
+import headIcon4 from '../../assets/images/icons/guarantee.png';
 
 const Header = () => {
     return (
@@ -19,10 +23,10 @@ const Header = () => {
                 </div>
                 <div className="header-bottom">
                     <div className="header-bottom-content">
-                        <p>Best Price</p>
-                        <p>Wide Range Of Products</p>
-                        <p>Guaranteed Quality</p>
-                        <p>Authorized & Assured</p>
+                        <p><img src={headIcon1} alt="Icon 1" loading="lazy" /> Best Price</p>
+                        <p><img src={headIcon2} alt="Icon 2" loading="lazy" /> Wide Range Of Products</p>
+                        <p><img src={headIcon3} alt="Icon 3" loading="lazy" /> Guaranteed Quality</p>
+                        <p><img src={headIcon4} alt="Icon 4" loading="lazy" /> Authorized & Assured</p>
                     </div>
                     <div className="header-bottom-images">
                         <span>Also Available</span>

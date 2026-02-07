@@ -50,7 +50,7 @@ header .header-bottom{
     padding-left: 5%;
 }
 header .header-bottom-content{
-    width: 38%;
+    width: 42%;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem
@@ -61,12 +61,18 @@ header .header-bottom-content p{
     font-size: 1rem;
     font-weight: 500;
     margin: 0;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+header .header-bottom-content p img{
+    width: 20px;
 }
 header .header-bottom-images{
-    width: 60%;
+    width: 55%;
     background-color: #000;
     border-top-left-radius: 100px;
-    padding: 1rem;
+    padding: 0.8rem;
 }
 header .header-bottom-images span{
     display: block;
@@ -80,9 +86,9 @@ header .header-bottom-images .logo-row{
     display: flex;
     justify-content: center;
     gap: 5%;
-    margin-top: 0.7rem;
+    margin-top: 0.5rem;
 }
 header .header-bottom-images .logo-row img{
-    width: 10%;
+    width: 12%;
     object-fit: contain;
 }
