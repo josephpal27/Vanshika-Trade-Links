@@ -1,0 +1,11 @@
+.latest-collections{
+    position: relative;
+}
+.latest-collections img{
+    width: 100%;
+}
+.latest-collections .latest-collection-content{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
