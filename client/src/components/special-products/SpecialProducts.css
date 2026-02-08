@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 7%;
+    padding: 0 5%;
 }
 .special-products-head h2{
     font-size: 1.8rem;
@@ -30,9 +30,15 @@
 }
 .special-products-slider .swiper-slide{
     position: relative;
+    overflow: hidden;
 }
 .special-products-slider .swiper-slide img{
     width: 100%;
+    scale: 1;
+    transition: scale 0.5s ease;
+}
+.special-products-slider .swiper-slide:hover img{
+    scale: 1.05;
 }
 .special-products-slider .swiper-slide .slide-content{
     width: 100%;
@@ -91,10 +97,10 @@
     color: #1e1e1e;
 }
 .special-products-slider .prev{
-    left: 1.5%;
+    left: 1%;
 }
 .special-products-slider .next{
-    right: 1.5%;
+    right: 1%;
 }
 
 /* Swiper Default Navigation Arrows */

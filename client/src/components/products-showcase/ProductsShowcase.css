@@ -3,17 +3,23 @@
 }
 .products-showcase img{
     width: 100%;
+    scale: 1;
+    transition: scale 0.5s ease;
 }
 .products-showcase .swiper-wrapper{
     transition-timing-function: linear !important;
 }
-.products-showcase .swiper-slide {
+.products-showcase .swiper-slide{
     background-color: #282828;
     padding-bottom: 1.2rem;
+    overflow: hidden;
+}
+.products-showcase .swiper-slide:hover img{
+    scale: 1.05;
 }
 .products-showcase .swiper-slide span{
     color: #fff;
-    font-size: 0.55rem;
+    font-size: 0.6rem;
     text-align: center;
     display: block;
     margin-top: 1.2rem;

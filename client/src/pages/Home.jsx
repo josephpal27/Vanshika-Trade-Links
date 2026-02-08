@@ -1,3 +1,4 @@
+import BestSellers from "../components/best-sellers/BestSellers"
 import Header from "../components/header/Header"
 import HomeBanner from "../components/home-banner/HomeBanner"
 import LatestCollections from "../components/latest-collections/LatestCollections"
@@ -14,6 +15,7 @@ const Home = () => {
             <SpecialProducts />
             <ProductsShowcase />
             <LatestCollections />
+            <BestSellers />
         </>
     )
 }

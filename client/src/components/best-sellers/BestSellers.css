@@ -1,0 +1,79 @@
+.best-sellers{
+    padding: 3rem 5%; 
+    background: linear-gradient( to bottom, #ebebeb, #e7e7e7);
+}
+.best-sellers-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.best-sellers-head h4{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 550;
+    letter-spacing: 3px;
+    color: #212121;
+    padding: 0 2rem 0.5rem 2rem;
+    border-bottom: 3px solid #3f3f3f;
+}
+.best-sellers-head p{
+    font-size: 1rem;
+    text-align: center;
+    color: #616161;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+.best-sellers-slider{
+    margin-top: 2rem;
+    position: relative;
+}
+.best-sellers-slider .image-box{
+    overflow: hidden;
+}
+.best-sellers-slider img{
+    width: 100%;
+    scale: 1;
+    transition: scale 0.5s ease;
+}
+.best-sellers-slider .swiper-slide:hover img{
+    scale: 1.05;
+}
+.best-sellers-slider span{
+    color: #000;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+/* Custom Navigation */
+.best-sellers-slider .prev,
+.best-sellers-slider .next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    font-size: 1.7rem;
+    color: #000;
+    background: transparent;
+    border: none;
+    padding: 0.1rem 0.8rem;
+}
+.best-sellers-slider .prev:hover,
+.best-sellers-slider .next:hover{
+    color: #1e1e1e;
+}
+.best-sellers-slider .prev{
+    left: -4%;
+}
+.best-sellers-slider .next{
+    right: -4%;
+}
+
+/* Swiper Default Navigation Arrows */
+.best-sellers-slider .swiper-button-prev,
+.best-sellers-slider .swiper-button-next {
+    display: none;
+}
