@@ -5,7 +5,7 @@
 .trending-products h1{
     font-size: 1.8rem;
     text-align: center;
-    font-weight: 500;
+    font-weight: 550;
     letter-spacing: 3px;
     color: #212121;
 }
@@ -16,9 +16,9 @@
     flex-wrap: wrap;
 }
 .trending-products .trending-products-row .product-box{
-    width: 49.3%;
+    width: 49.4%;
     height: 48vh;
-    margin-bottom: 1.45rem;
+    margin-bottom: 1.25rem;
     position: relative;
     overflow: hidden;
 }
@@ -34,10 +34,10 @@
 }
 .trending-products .trending-products-row #product-box-3,
 .trending-products .trending-products-row #product-box-5{
-    width: 25.3%;
+    width: 25.4%;
 }
 .trending-products .trending-products-row #product-box-4{
-    width: 46.5%;
+    width: 46.7%;
 }
 .trending-products .trending-products-row .overlay{
     width: 100%;
