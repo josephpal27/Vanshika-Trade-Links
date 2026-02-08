@@ -1,0 +1,79 @@
+.trending-products{
+    padding: 3rem 0;
+    background-color: #f7f7f7;
+}
+.trending-products h1{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #212121;
+}
+.trending-products .trending-products-row{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.trending-products .trending-products-row .product-box{
+    width: 49.3%;
+    height: 48vh;
+    margin-bottom: 1.45rem;
+    position: relative;
+    overflow: hidden;
+}
+.trending-products .trending-products-row .product-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    scale: 1;
+    transition: scale 0.5s ease;
+}
+.trending-products .trending-products-row .product-box:hover img{
+    scale: 1.05;
+}
+.trending-products .trending-products-row #product-box-3,
+.trending-products .trending-products-row #product-box-5{
+    width: 25.3%;
+}
+.trending-products .trending-products-row #product-box-4{
+    width: 46.5%;
+}
+.trending-products .trending-products-row .overlay{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000009a;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.trending-products .trending-products-row .product-box:hover .overlay{
+    opacity: 1;
+}
+.trending-products .trending-products-row .overlay span{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.trending-products .trending-products-row .overlay a{
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+.trending-products .trending-products-row .overlay a:hover{
+    background-color: #1e1e1e;
+}

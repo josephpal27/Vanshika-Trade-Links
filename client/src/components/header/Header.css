@@ -46,7 +46,7 @@ header .header-bottom{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 3rem;
+    padding-top: 2.5rem;
     padding-left: 5%;
 }
 header .header-bottom-content{
