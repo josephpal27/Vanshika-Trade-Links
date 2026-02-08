@@ -1,0 +1,20 @@
+.products-showcase{
+    padding: 3rem 7%;
+}
+.products-showcase img{
+    width: 100%;
+}
+.products-showcase .swiper-wrapper{
+    transition-timing-function: linear !important;
+}
+.products-showcase .swiper-slide {
+    background-color: #282828;
+    padding-bottom: 1.2rem;
+}
+.products-showcase .swiper-slide span{
+    color: #fff;
+    font-size: 0.55rem;
+    text-align: center;
+    display: block;
+    margin-top: 1.2rem;
+}
