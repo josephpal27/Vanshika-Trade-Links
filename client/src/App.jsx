@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom"
+import Header from "./components/header/Header"
 // import { useEffect } from "react";
 // import MyNavbar from "./components/navbar/Navbar"
 // import Footer from './components/footer/Footer';
@@ -32,6 +33,7 @@ const App = () => {
     <>
       {/* <PageTitle/> */}
       {/* <MyNavbar/> */}
+      <Header />
       <Outlet />
       {/* <Footer/> */}
       {/* <ScrollToTop/> */}

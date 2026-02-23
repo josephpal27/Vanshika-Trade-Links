@@ -1,0 +1,36 @@
+.products-banner{
+    position: relative;
+    overflow: hidden;
+}
+.products-banner img{
+    width: 100%;
+}
+.products-banner .banner-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #000000b1 30%, #00000000);
+}
+.products-banner .banner-content h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.products-banner .banner-content span{
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+}
+.products-banner .banner-content span a{
+    color: #fff;
+    text-decoration: none;
+}
+.products-banner .banner-content span a:hover{
+    text-decoration: underline;
+}
