@@ -13,7 +13,7 @@ const MyNavbar = () => {
 
     return (
         <Navbar expand="lg" className="navbar">
-            <Nav.Link as={NavLink} to="/products" className="view-products-btn" onClick={handleClose}>
+            <Nav.Link as={NavLink} to="/category" className="view-products-btn" onClick={handleClose}>
                 View Our Products
             </Nav.Link>
 

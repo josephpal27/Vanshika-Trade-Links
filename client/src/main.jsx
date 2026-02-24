@@ -7,6 +7,7 @@ import './index.css'; // Import custom CSS
 
 import App from './App.jsx';
 import Home from './pages/Home.jsx';
+import Category from './pages/Category';
 import Products from './pages/Products.jsx';
 
 let routers = createBrowserRouter([
@@ -16,6 +17,7 @@ let routers = createBrowserRouter([
     // errorElement: <Error />,
     children: [
       {path: "/", element: <Home />},
+      {path: "/category", element: <Category />},
       {path: "/products", element: <Products />},
       // {path: "*", element: <Error />},
     ]
