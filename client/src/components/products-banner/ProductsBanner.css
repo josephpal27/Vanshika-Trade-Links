@@ -18,8 +18,9 @@
 }
 .products-banner .banner-content h1{
     color: #fff;
-    font-weight: 600;
-    font-size: 3rem;
+    font-weight: 550;
+    font-size: 2.5rem;
+    text-transform: uppercase;
 }
 .products-banner .banner-content span{
     color: #fff;

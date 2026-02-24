@@ -1,5 +1,4 @@
 import SearchBar from '../search-bar/SearchBar';
-import { IoCaretDownOutline } from "react-icons/io5";
 import './OurProducts.css';
 import { Link } from 'react-router-dom';
 
@@ -17,72 +16,50 @@ const OurProducts = () => {
                 <div className="products-container">
                     {/* Filters */}
                     <div className="filters">
-                        <span>Filter Options <IoCaretDownOutline className="arrow-icon" /></span>
+                        <span>Our Collections</span>
                         <div className="filter-box">
                             <span>By Category</span>
-                            <div>
-                                <input type="checkbox" id="vital" name="vital" />
-                                <label htmlFor="vital">Vital</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="ecoline" name="ecoline" value="ecoline" />
-                                <label htmlFor="ecoline">Ecoline</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="studio" name="studio" value="studio" />
-                                <label htmlFor="studio">Studio</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="lily" name="lily" value="lily" />
-                                <label htmlFor="lily">Lily</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="cosmo" name="cosmo" value="cosmo" />
-                                <label htmlFor="cosmo">Cosmo jr</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="rainbow" name="rainbow" value="rainbow" />
-                                <label htmlFor="rainbow">Rainbow</label>
-                            </div>
-                            <span>By Availability</span>
-                            <div>
-                                <input type="checkbox" id="instock" name="instock" value="instock" />
-                                <label htmlFor="instock">In Stock</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="outofstock" name="outofstock" value="outofstock" />
-                                <label htmlFor="outofstock">Out of Stock</label>
-                            </div>
                         </div>
                     </div>
                     {/* Products Row */}
                     <div className="products-row">
-                        {/* Sort */}
-                        <div className="sort-row">
-                            Sort by: <span>Default</span>
-                        </div>
                         {/* Product Cards */}
                         <div className="products-cards-row">
                             <div className="product-card">
-                                <div className="product-image">
+                                <div className="card-image">
                                     <img src="/images/products/RNB-1201.png" alt="Product 1" loading="lazy" />
                                 </div>
-                                <span className="p-name">Pillar Cock</span>
-                                <Link to="/product-details">Explore</Link>
+                                <div className="card-desc">
+                                    <span>Pillar Cock</span>
+                                    <Link to="/product-details">Explore</Link>
+                                </div>
                             </div>
                             <div className="product-card">
-                                <div className="product-image">
+                                <div className="card-image">
                                     <img src="/images/products/RNB-1201.png" alt="Product 1" loading="lazy" />
                                 </div>
-                                <span className="p-name">Pillar Cock</span>
-                                <Link to="/product-details">Explore</Link>
+                                <div className="card-desc">
+                                    <span>Pillar Cock</span>
+                                    <Link to="/product-details">Explore</Link>
+                                </div>
                             </div>
                             <div className="product-card">
-                                <div className="product-image">
+                                <div className="card-image">
                                     <img src="/images/products/RNB-1201.png" alt="Product 1" loading="lazy" />
                                 </div>
-                                <span className="p-name">Pillar Cock</span>
-                                <Link to="/product-details">Explore</Link>
+                                <div className="card-desc">
+                                    <span>Pillar Cock</span>
+                                    <Link to="/product-details">Explore</Link>
+                                </div>
+                            </div>
+                            <div className="product-card">
+                                <div className="card-image">
+                                    <img src="/images/products/RNB-1201.png" alt="Product 1" loading="lazy" />
+                                </div>
+                                <div className="card-desc">
+                                    <span>Pillar Cock</span>
+                                    <Link to="/product-details">Explore</Link>
+                                </div>
                             </div>
                         </div>
                     </div>
