@@ -1,6 +1,7 @@
 import SearchBar from '../search-bar/SearchBar';
 import { IoCaretDownOutline } from "react-icons/io5";
 import './OurProducts.css';
+import { Link } from 'react-router-dom';
 
 const OurProducts = () => {
     return (
@@ -56,7 +57,34 @@ const OurProducts = () => {
                     </div>
                     {/* Products Row */}
                     <div className="products-row">
-
+                        {/* Sort */}
+                        <div className="sort-row">
+                            Sort by: <span>Default</span>
+                        </div>
+                        {/* Product Cards */}
+                        <div className="products-cards-row">
+                            <div className="product-card">
+                                <div className="product-image">
+                                    <img src="/images/products/RNB-1201.png" alt="Product 1" loading="lazy" />
+                                </div>
+                                <span className="p-name">Pillar Cock</span>
+                                <Link to="/product-details">Explore</Link>
+                            </div>
+                            <div className="product-card">
+                                <div className="product-image">
+                                    <img src="/images/products/RNB-1201.png" alt="Product 1" loading="lazy" />
+                                </div>
+                                <span className="p-name">Pillar Cock</span>
+                                <Link to="/product-details">Explore</Link>
+                            </div>
+                            <div className="product-card">
+                                <div className="product-image">
+                                    <img src="/images/products/RNB-1201.png" alt="Product 1" loading="lazy" />
+                                </div>
+                                <span className="p-name">Pillar Cock</span>
+                                <Link to="/product-details">Explore</Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

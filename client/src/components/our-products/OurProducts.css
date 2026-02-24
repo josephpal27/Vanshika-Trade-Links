@@ -56,5 +56,28 @@
 
 .products-container .products-row{
     width: 78%;
+    /* background-color: red; */
+}
+.products-container .products-row .sort-row{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.products-container .products-cards-row{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 3.5%;
     background-color: red;
+    margin-top: 1.8rem;
+}
+.products-container .products-cards-row .product-card{
+    width: 31%;
+    overflow: hidden;
+}
+.products-container .products-cards-row .product-card .product-image{
+    background-color: #000;
+}
+.products-container .products-cards-row .product-card img{
+    width: 100%;
 }
