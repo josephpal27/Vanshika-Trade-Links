@@ -1,45 +1,44 @@
 .search-bar-container{
-    padding: 4rem 5%;
+    padding: 4rem 5% 2rem 5%;
     display: flex;
     justify-content: center;
 }
 .products-container{
     padding: 0 5% 5rem 5%;
+}
+.products-container .product-container-head h2{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #000;
+}
+.products-container .product-container-body{
+    margin-top: 1.5rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .products-container .collections{
     width: 20%;
-}
-.products-container .collections #collections-head{
-    color: #000;
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-.products-container .collections-box{
+    height: max-content;
     background-color: #e8e8e8;
-    margin-top: 1.5rem;
-    padding: 1rem;
 }
-.products-container .collections-box a{
-    font-size: 1rem;
+.products-container .collections a{
+    font-size: 1.1rem;
     font-weight: 600;
     display: block;
-    margin-bottom: 1rem;
-    background-color: #f9f9f9;
     text-decoration: none;
-    padding: 0.8rem 1rem;
+    padding: 1.1rem 1rem;
     color: #000;
+    border-bottom: 1px solid #fff;
     transition: all 0.2s ease;
 }
-.products-container .collections-box a:last-child{
-    margin-bottom: 0;
+.products-container .collections a:last-child{
+    border-bottom: none;
 }
-.products-container .collections-box a:hover{
-    background-color: #fff;
+.products-container .collections a:hover{
+    background-color: #f6f6f6;
 }
-.products-container .collections-box a.active{
+.products-container .collections a.active{
     background-color: #000;
     color: #fff;
 }
