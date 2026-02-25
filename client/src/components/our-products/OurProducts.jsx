@@ -35,7 +35,7 @@ const OurProducts = () => {
                             <div className="products-cards-row">
                                 <div className="product-card">
                                     <div className="card-image">
-                                        <img src="/images/products/RNB-1201.png" alt="Product 1" loading="lazy" />
+                                        <img src="/images/products/rainbow/RNB-1201.png" alt="Product 1" loading="lazy" />
                                     </div>
                                     <div className="card-desc">
                                         <span>Pillar Cock</span>
