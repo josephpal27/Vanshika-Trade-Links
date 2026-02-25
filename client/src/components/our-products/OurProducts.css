@@ -9,49 +9,39 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.products-container .filters{
+.products-container .collections{
     width: 20%;
 }
-.products-container .filters span{
+.products-container .collections #collections-head{
     color: #000;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
-.products-container .filter-box{
+.products-container .collections-box{
     background-color: #e8e8e8;
     margin-top: 1.5rem;
     padding: 1rem;
 }
-.products-container .filter-box span{
+.products-container .collections-box a{
     font-size: 1rem;
     font-weight: 600;
     display: block;
-    margin-top: 1.2rem;
-    margin-bottom: 0.6rem;
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    color: #000;
+    transition: all 0.2s ease;
 }
-.products-container .filter-box span:first-child{
-    margin-top: 0;
-}
-.products-container .filter-box div{
-    padding-left: 0.5rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 0.3rem;
-}
-.products-container .filter-box div:last-child{
+.products-container .collections-box a:last-child{
     margin-bottom: 0;
 }
-.products-container .filter-box input{
-    width: 15px;
-    height: 15px;
-    accent-color: #000;
-    cursor: pointer;
+.products-container .collections-box a:hover{
+    background-color: #fff;
 }
-.products-container .filter-box label{
-    font-size: 0.95rem;
-    font-weight: 500;
-    cursor: pointer;
+.products-container .collections-box a.active{
+    background-color: #000;
+    color: #fff;
 }
 
 .products-container .products-row{
@@ -103,12 +93,8 @@
     display: block;
     width: fit-content;
     font-weight: 500;
-    border-radius: 2px;
-    transform: all 0.2s ease;
+    border-radius: 4px;
 }
 .products-container .products-cards-row .product-card a:hover{
-    background-color: #fff;
-    color: #000;
-    box-shadow: rgba(0, 0, 0, 0.285) 0px 2px 8px 0px;
-    font-weight: 600;
+    background-color: #1e1e1e;
 }
