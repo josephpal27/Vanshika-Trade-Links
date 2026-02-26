@@ -96,6 +96,12 @@ export const productsData = {
       image: "/images/products/rainbow/single-lever-concealed-bath-mixer-uppertrim.png",
       slug: "single-lever-concealed-bath-mixer-uppertrim",
     },
+    {
+      id: 17,
+      name: "Overhead Shower with Arm",
+      image: "/images/products/rainbow/overhead-shower-with-arm.png",
+      slug: "overhead-shower-with-arm",
+    },
   ],
 
   "vital-series": [

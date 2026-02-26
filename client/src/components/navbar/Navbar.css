@@ -12,6 +12,19 @@
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+}
+.navbar .view-products-btn .icon{
+    font-size: 0.9rem;
+    margin-left: 0.3rem;
+    margin-left: -1rem;
+    transition: opacity 0.2s ease, margin-left 0.25s ease;
+    opacity: 0;
+}
+.navbar .view-products-btn:hover .icon{
+    opacity: 1;
+    margin-left: 0.5rem;
 }
 .navbar .view-products-btn:hover{
     background-color: #1e1e1e;
@@ -19,34 +32,51 @@
     border-bottom-right-radius: 0;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    /* box-shadow: rgba(0, 0, 0, 0.553) 0px 3px 8px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 8px;
 }
 .navbar .mob-nav{
     display: none;
 }
 .navbar .centered-logo img{
     width: 100px;
-    margin-left: 2rem;
+    margin-left: 4rem;
 }
 .navbar .right-btn-wrapper{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 .navbar .download-btn{
     background-color: transparent;
     color: #000;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 550;
     border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.navbar .download-btn .download-icon{
+    font-size: 1.1rem;
+    margin-top: -3px;
+    transition: scale 0.2s ease;
+}
+.navbar .download-btn:hover .download-icon{
+    scale: 1.1;
 }
 .navbar .get-in-touch-btn{
     background-color: #000;
     color: #fff;
     font-size: 1rem;
-    font-weight: 500;
-    padding: 0.2rem 0.7rem;
+    font-weight: 550;
+    padding: 0.3rem 0.8rem;
     border-radius: 5px;
+    border: none;
+    transition: all 0.2s ease;
+}
+.navbar .get-in-touch-btn:hover{
+    background-color: #1e1e1e;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 8px;
 }
 
 /* Media Queries */

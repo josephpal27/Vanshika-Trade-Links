@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { ImDownload } from "react-icons/im";
+import { FaArrowRight } from "react-icons/fa";
 import "./Navbar.css";
 
 const MyNavbar = () => {
@@ -14,7 +16,7 @@ const MyNavbar = () => {
     return (
         <Navbar expand="lg" className="navbar">
             <Nav.Link as={NavLink} to="/category" className="view-products-btn" onClick={handleClose}>
-                View Our Products
+                View Our Products <FaArrowRight className="icon" />
             </Nav.Link>
 
             {/* Toggle button opens Offcanvas */}
@@ -54,7 +56,7 @@ const MyNavbar = () => {
 
                     {/* Right Side */}
                     <div className="right-btn-wrapper">
-                        <button className="download-btn">Download</button>
+                        <button className="download-btn">Download <ImDownload className="download-icon" /></button>
                         <button className="get-in-touch-btn">Get In Touch</button>
                     </div>
                 </Offcanvas.Body>
