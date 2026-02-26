@@ -1,11 +1,18 @@
-import SearchBar from '../search-bar/SearchBar';
-import './OurProducts.css';
 import { Link } from 'react-router-dom';
+import { useParams } from "react-router-dom";
+import SearchBar from '../search-bar/SearchBar';
+import './CategoryProducts.css';
 
-const OurProducts = () => {
+const CategoryProducts = () => {
+
+    const { categorySlug } = useParams();
+    console.log(categorySlug);
+
     return (
         <>
-            <section className="our-products">
+            <section className="category-products">
+
+                <h1 style={{color: "red"}}>Slug - {categorySlug}</h1>
 
                 {/* Search Bar */}
                 <div className="search-bar-container">
@@ -52,4 +59,4 @@ const OurProducts = () => {
     )
 }
 
-export default OurProducts
+export default CategoryProducts;

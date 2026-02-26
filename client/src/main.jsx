@@ -18,7 +18,7 @@ let routers = createBrowserRouter([
     children: [
       {path: "/", element: <Home />},
       {path: "/category", element: <Category />},
-      {path: "/products", element: <Products />},
+      {path: "/category/:categorySlug", element: <Products />},
       // {path: "*", element: <Error />},
     ]
   }
