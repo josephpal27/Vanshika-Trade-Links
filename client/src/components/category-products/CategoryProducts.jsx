@@ -50,13 +50,13 @@ const CategoryProducts = () => {
                                     ) : (
                                         products.map((product) => {
                                             return (
-                                                <div className="product-card">
+                                                <div className="product-card" key={product.id}>
                                                     <div className="card-image">
-                                                        <img src="/images/products/rainbow/RNB-1201.png" alt="Product 1" loading="lazy" />
+                                                        <img src={product.image} alt={product.name} loading="lazy" />
                                                     </div>
                                                     <div className="card-desc">
-                                                        <span>Pillar Cock</span>
-                                                        <Link to="/product-details">Explore</Link>
+                                                        <span>{product.name}</span>
+                                                        <Link to={`/category/${categorySlug}/${product.slug}`}>Explore</Link>
                                                     </div>
                                                 </div>
                                             )
