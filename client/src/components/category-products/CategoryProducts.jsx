@@ -3,6 +3,7 @@ import { categoryData } from '../../data/categoryData';
 import { productsData } from '../../data/productsData';
 import SearchBar from '../search-bar/SearchBar';
 import { TbFaceIdError } from "react-icons/tb";
+import { FaArrowRight } from "react-icons/fa";
 import './CategoryProducts.css';
 
 const CategoryProducts = () => {
@@ -56,7 +57,9 @@ const CategoryProducts = () => {
                                                     </div>
                                                     <div className="card-desc">
                                                         <span>{product.name}</span>
-                                                        <Link to={`/category/${categorySlug}/${product.slug}`}>Explore</Link>
+                                                        <Link to={`/category/${categorySlug}/${product.slug}`}>
+                                                            Explore <FaArrowRight className="icon" />
+                                                        </Link>
                                                     </div>
                                                 </div>
                                             )

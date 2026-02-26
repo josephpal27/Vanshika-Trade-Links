@@ -106,11 +106,22 @@
     font-size: 0.9rem;
     padding: 0.35rem 0.9rem;
     margin-top: 0.8rem;
-    display: block;
+    display: flex;
+    align-items: center;
     width: fit-content;
     font-weight: 500;
     border-radius: 4px;
 }
 .products-container .products-cards-row .product-card a:hover{
     background-color: #1e1e1e;
+}
+.products-container .products-cards-row .product-card .icon{
+    font-size: 0.8rem;
+    margin-left: -0.7rem;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+.products-container .products-cards-row .product-card a:hover .icon{
+    margin-left: 0.4rem;
+    opacity: 1;
 }

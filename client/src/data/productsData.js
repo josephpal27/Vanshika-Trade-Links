@@ -93,7 +93,8 @@ export const productsData = {
     {
       id: 16,
       name: "Single Lever Conceled Bath Mixer Uppertrim",
-      image: "/images/products/rainbow/single-lever-concealed-bath-mixer-uppertrim.png",
+      image:
+        "/images/products/rainbow/single-lever-concealed-bath-mixer-uppertrim.png",
       slug: "single-lever-concealed-bath-mixer-uppertrim",
     },
     {
@@ -204,12 +205,138 @@ export const productsData = {
     {
       id: 17,
       name: "Wall Mixer Divertor Spout w-o Tele Shower & Fexible Tube & Hook (3 in 1)",
-      image: "/images/products/vital/wall-mixer-divertor-spout-w-o-tele-shower-fexible-tube-hook-3-in-1.png",
+      image:
+        "/images/products/vital/wall-mixer-divertor-spout-w-o-tele-shower-fexible-tube-hook-3-in-1.png",
       slug: "wall-mixer-divertor-spout-w-o-tele-shower-fexible-tube-hook-3-in-1",
     },
   ],
 
   "ecoline-series": [
-    
+    {
+      id: 1,
+      name: "Pillar Cock Regular",
+      image: "/images/products/ecoline/pillar-cock-regular.png",
+      slug: "pillar-cock-regular",
+    },
+    {
+      id: 2,
+      name: "Bib Cock",
+      image: "/images/products/ecoline/bib-cock.png",
+      slug: "bib-cock",
+    },
+    {
+      id: 3,
+      name: "Bib Cock 2 in 1 (Single Handle)",
+      image: "/images/products/ecoline/bib-cock-2-in-1-single-handle.png",
+      slug: "bib-cock-2-in-1-single-handle",
+    },
+    {
+      id: 4,
+      name: "Bib Cock Long Body",
+      image: "/images/products/ecoline/bib-cock-long-body.png",
+      slug: "bib-cock-long-body",
+    },
+    {
+      id: 5,
+      name: "Nozzle Bib Cock",
+      image: "/images/products/ecoline/nozzle-bib-cock.png",
+      slug: "nozzle-bib-cock",
+    },
+    {
+      id: 6,
+      name: "Bib Cock 2 in 1",
+      image: "/images/products/ecoline/bib-cock-2-in-1.png",
+      slug: "bib-cock-2-in-1",
+    },
+    {
+      id: 7,
+      name: "Angle Cock",
+      image: "/images/products/ecoline/angle-cock.png",
+      slug: "angle-cock",
+    },
+    {
+      id: 8,
+      name: "Angle cock 2 in 1",
+      image: "/images/products/ecoline/angle-cock-2-in-1.png",
+      slug: "angle-cock-2-in-1",
+    },
+    {
+      id: 9,
+      name: "Concealed Stop Cock Uppertrim",
+      image: "/images/products/ecoline/concealed-stop-cock-uppertrim.png",
+      slug: "concealed-stop-cock-uppertrim",
+    },
+    {
+      id: 10,
+      name: "Swan Neck Tap",
+      image: "/images/products/ecoline/swan-neck-tap.png",
+      slug: "swan-neck-tap",
+    },
+    {
+      id: 11,
+      name: "Sink Cock",
+      image: "/images/products/ecoline/sink-cock.png",
+      slug: "sink-cock",
+    },
+    {
+      id: 12,
+      name: "Sink Mixer With Swivel Spout",
+      image: "/images/products/ecoline/sink-mixer-with-swivel-spout.png",
+      slug: "sink-mixer-with-swivel-spout",
+    },
+    {
+      id: 13,
+      name: "Center Hole Mixer",
+      image: "/images/products/ecoline/center-hole-mixer.png",
+      slug: "center-hole-mixer",
+    },
+    {
+      id: 14,
+      name: "Wall Mixer Non Telephonic",
+      image: "/images/products/ecoline/wall-mixer-non-telephonic.png",
+      slug: "wall-mixer-non-telephonic",
+    },
+    {
+      id: 15,
+      name: "Wall Mixer with Bend - crutch (2 in 1)",
+      image: "/images/products/ecoline/wall-mixer-with-bend-crutch-2-in-1.png",
+      slug: "wall-mixer-with-bend-crutch-2-in-1",
+    },
+    {
+      id: 16,
+      name: "Wall Mixer Divertor Spout W-O Tele Shower & Flexible Tube & Hook ( 3 in 1)",
+      image: "/images/products/ecoline/wall-mixer-divertor-spout-w-o-Tele-shower-flexible-tube-hook-3-in-1.png",
+      slug: "wall-mixer-divertor-spout-w-o-tele-shower-and-flexible-tube-and-hook-3-in-1",
+    },
+    {
+      id: 17,
+      name: "Single lever Basin Mixer",
+      image: "/images/products/ecoline/single-lever-basin-mixer.png",
+      slug: "single-lever-basin-mixer",
+    },
+    {
+      id: 18,
+      name: "Single Lever Concealed Bath Mixer Uppertrim",
+      image: "/images/products/ecoline/single-lever-concealed-bath-mixer-uppertrim.png",
+      slug: "single-lever-concealed-bath-mixer-uppertrim",
+    },
+    {
+      id: 19,
+      name: "Plain Spout",
+      image: "/images/products/ecoline/plain-spout.png",
+      slug: "plain-spout",
+    },
+    {
+      id: 20,
+      name: "Button Spout",
+      image: "/images/products/ecoline/button-spout.png",
+      slug: "button-spout",
+    },
+    {
+      id: 21,
+      name: "Overhead Shower with Arm",
+      image: "/images/products/ecoline/overhead-shower-with-arm.png",
+      slug: "overhead-shower-with-arm",
+    },
   ],
 };
