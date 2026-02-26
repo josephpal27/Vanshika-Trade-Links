@@ -1,10 +1,10 @@
 import CategoryProducts from "../components/category-products/CategoryProducts";
-import ProductsBanner from "../components/products-banner/ProductsBanner";
+import CategoryProductsBanner from "../components/category-products-banner/CategoryProductsBanner";
 
 const Products = () => {
     return (
         <>
-            <ProductsBanner />
+            <CategoryProductsBanner/>
             <CategoryProducts />
         </>
     )
