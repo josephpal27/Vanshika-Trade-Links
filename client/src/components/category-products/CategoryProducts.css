@@ -52,6 +52,22 @@
     flex-wrap: wrap;
     gap: 3.5%;
 }
+.products-container .products-cards-row .no-products{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.products-container .products-cards-row .no-products .icon{
+    color: #000;
+    font-size: 1.5rem;
+}
+.products-container .products-cards-row .no-products p{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0;
+}
 .products-container .products-cards-row .product-card{
     width: 31%;
     overflow: hidden;

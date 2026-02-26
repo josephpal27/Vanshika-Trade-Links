@@ -2,8 +2,8 @@
 import { Outlet } from "react-router-dom"
 import Header from "./components/header/Header";
 import MyNavbar from './components/navbar/Navbar';
+import ScrollToTop from "./components/ScrollToTop";
 // import Footer from './components/footer/Footer';
-// import ScrollToTop from "./components/scroll-to-top/ScrollToTop";
 // // import PageTitle from "./components/page-title/PageTitle";
 // import AOS from "aos";
 
@@ -32,11 +32,11 @@ const App = () => {
   return (
     <>
       {/* <PageTitle/> */}
-      <MyNavbar/>
+      <MyNavbar />
       <Header />
       <Outlet />
       {/* <Footer/> */}
-      {/* <ScrollToTop/> */}
+      <ScrollToTop />
     </>
   )
 }
