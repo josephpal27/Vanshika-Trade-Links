@@ -6,6 +6,10 @@
 .products-container{
     padding: 0 5% 5rem 5%;
 }
+.products-container .product-container-head{
+    position: sticky;
+    top: 15px;
+}
 .products-container .product-container-head h2{
     font-size: 1.7rem;
     font-weight: 500;
@@ -21,6 +25,8 @@
     width: 20%;
     height: max-content;
     background-color: #e8e8e8;
+    position: sticky;
+    top: 70px;
 }
 .products-container .collections a{
     font-size: 1.1rem;
