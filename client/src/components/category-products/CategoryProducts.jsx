@@ -6,7 +6,6 @@ import './CategoryProducts.css';
 const CategoryProducts = () => {
 
     const { categorySlug } = useParams();
-    console.log(categorySlug);
 
     return (
         <>
