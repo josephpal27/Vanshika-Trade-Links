@@ -9,13 +9,13 @@ const SearchBar = () => {
     return (
         <>
             <div className="search-bar">
-                <IoSearch className="search-icon" />
                 <input
                     type="text"
                     placeholder="Search here"
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                 />
+                <IoSearch className="search-icon" />
             </div>
         </>
     )
