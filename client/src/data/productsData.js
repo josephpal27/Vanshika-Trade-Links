@@ -2,9 +2,9 @@ export const productsData = {
   "rainbow-series": [
     {
       id: 1,
-      name: "Pillar Cock",
-      image: "/images/products/rainbow/pillar-cock.png",
-      slug: "pillar-cock",
+      name: "Pillar Cock Regular",
+      image: "/images/products/rainbow/pillar-cock-regular.png",
+      slug: "pillar-cock-regular",
     },
     {
       id: 2,
@@ -105,7 +105,108 @@ export const productsData = {
   ],
 
   "vital-series": [
-    
+    {
+      id: 1,
+      name: "Pillar Cock Regular",
+      image: "/images/products/vital/pillar-cock-regular.png",
+      slug: "pillar-cock-regular",
+    },
+    {
+      id: 2,
+      name: "Pillar Cock Medium",
+      image: "/images/products/vital/pillar-cock-medium.png",
+      slug: "pillar-cock-medium",
+    },
+    {
+      id: 3,
+      name: "Pillar Cock Extended",
+      image: "/images/products/vital/pillar-cock-extended.png",
+      slug: "pillar-cock-extended",
+    },
+    {
+      id: 4,
+      name: "Bib Cock",
+      image: "/images/products/vital/bib-cock.png",
+      slug: "bib-cock",
+    },
+    {
+      id: 5,
+      name: "Bib Cock Long Body",
+      image: "/images/products/vital/bib-cock-long-body.png",
+      slug: "bib-cock-long-body",
+    },
+    {
+      id: 6,
+      name: "Bib Cock 2 in 1",
+      image: "/images/products/vital/bib-cock-2-in-1.png",
+      slug: "bib-cock-2-in-1",
+    },
+    {
+      id: 7,
+      name: "Nozzle Bib Cock",
+      image: "/images/products/vital/nozzle-bib-cock.png",
+      slug: "nozzle-bib-cock",
+    },
+    {
+      id: 8,
+      name: "Angle Cock",
+      image: "/images/products/vital/angle-cock.png",
+      slug: "angle-cock",
+    },
+    {
+      id: 9,
+      name: "Angle Cock 2 in 1 Single Handle",
+      image: "/images/products/vital/angle-cock-2-in-1-single-handle.png",
+      slug: "angle-cock-2-in-1-single-handle",
+    },
+    {
+      id: 10,
+      name: "Open Stop Cock",
+      image: "/images/products/vital/open-stop-cock.png",
+      slug: "open-stop-cock",
+    },
+    {
+      id: 11,
+      name: "Sink Cock",
+      image: "/images/products/vital/sink-cock.png",
+      slug: "sink-cock",
+    },
+    {
+      id: 12,
+      name: "Swan Neck Tap",
+      image: "/images/products/vital/swan-neck-tap.png",
+      slug: "swan-neck-tap",
+    },
+    {
+      id: 13,
+      name: "Center Hole Basin Mixer",
+      image: "/images/products/vital/center-hole-basin-mixer.png",
+      slug: "center-hole-basin-mixer",
+    },
+    {
+      id: 14,
+      name: "Sink Mixer with Swivel Spout",
+      image: "/images/products/vital/sink-mixer-with-swivel-spout.png",
+      slug: "sink-mixer-with-swivel-spout",
+    },
+    {
+      id: 15,
+      name: "Wall Mixer Non Telephonic",
+      image: "/images/products/vital/wall-mixer-non-telephonic.png",
+      slug: "wall-mixer-non-telephonic",
+    },
+    {
+      id: 16,
+      name: "Wall Mixer with Bend Crutch 2 in 1",
+      image: "/images/products/vital/wall-mixer-with-bend-crutch-2-in-1.png",
+      slug: "wall-mixer-with-bend-crutch-2-in-1",
+    },
+    {
+      id: 17,
+      name: "Wall Mixer Divertor Spout w-o Tele Shower & Fexible Tube & Hook (3 in 1)",
+      image: "/images/products/vital/wall-mixer-divertor-spout-w-o-tele-shower-fexible-tube-hook-3-in-1.png",
+      slug: "wall-mixer-divertor-spout-w-o-tele-shower-fexible-tube-hook-3-in-1",
+    },
   ],
 
   "ecoline-series": [
