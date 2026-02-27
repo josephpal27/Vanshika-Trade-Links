@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { categoryData } from '../../data/categoryData';
 import { productsData } from '../../data/productsData';
 import SearchBar from '../search-bar/SearchBar';
@@ -12,7 +12,12 @@ const CategoryProducts = () => {
     const [search, setSearch] = useState("");
 
     const { categorySlug } = useParams();
-    
+
+    // Reset search when category changes
+    useEffect(() => {
+        setSearch("");
+    }, [categorySlug]);
+
     const allProducts = productsData[categorySlug] || [];
 
     const products = allProducts.filter(product =>
