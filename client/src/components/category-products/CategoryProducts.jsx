@@ -1,4 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
+import { useState } from 'react';
 import { categoryData } from '../../data/categoryData';
 import { productsData } from '../../data/productsData';
 import SearchBar from '../search-bar/SearchBar';
@@ -8,8 +9,15 @@ import './CategoryProducts.css';
 
 const CategoryProducts = () => {
 
+    const [search, setSearch] = useState("");
+
     const { categorySlug } = useParams();
-    const products = productsData[categorySlug] || [];
+    
+    const allProducts = productsData[categorySlug] || [];
+
+    const products = allProducts.filter(product =>
+        product.name.toLowerCase().includes(search.toLowerCase())
+    );
 
     return (
         <>
@@ -17,7 +25,7 @@ const CategoryProducts = () => {
 
                 {/* Search Bar */}
                 <div className="search-bar-container">
-                    <SearchBar />
+                    <SearchBar search={search} setSearch={setSearch} />
                 </div>
 
                 {/* Products */}

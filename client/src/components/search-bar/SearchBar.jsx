@@ -1,10 +1,10 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './SearchBar.css';
 import { IoSearch } from "react-icons/io5";
 
-const SearchBar = () => {
+const SearchBar = ({ search, setSearch }) => {
 
-    const [search, setSearch] = useState("");
+    // const [search, setSearch] = useState("");
 
     return (
         <>
