@@ -584,5 +584,116 @@ export const productsData = {
       image: "/images/products/lily/overhead-shower-with-arm.png",
       slug: "overhead-shower-with-arm",
     },
-  ]
+  ],
+
+  "cosmo-jr-series": [
+    {
+      id: 1,
+      name: "Pillar Cock Regular",
+      image: "/images/products/cosmo-jr/pillar-cock-regular.png",
+      slug: "pillar-cock-regular",
+    },
+    {
+      id: 2,
+      name: "Bib Cock",
+      image: "/images/products/cosmo-jr/bib-cock.png",
+      slug: "bib-cock",
+    },
+    {
+      id: 3,
+      name: "Bib Cock Long Body",
+      image: "/images/products/cosmo-jr/bib-cock-long-body.png",
+      slug: "bib-cock-long-body",
+    },
+    {
+      id: 4,
+      name: "Bib Cock 2 in 1 (Single Handle)",
+      image: "/images/products/cosmo-jr/bib-cock-2-in-1-single-handle.png",
+      slug: "bib-cock-2-in-1-single-handle",
+    },
+    {
+      id: 5,
+      name: "Bib Cock 2 in 1",
+      image: "/images/products/cosmo-jr/bib-cock-2-in-1.png",
+      slug: "bib-cock-2-in-1",
+    },
+    {
+      id: 6,
+      name: "Nozzle Bib Cock",
+      image: "/images/products/cosmo-jr/nozzle-bib-cock.png",
+      slug: "nozzle-bib-cock",
+    },
+    {
+      id: 7,
+      name: "Angle Cock",
+      image: "/images/products/cosmo-jr/angle-cock.png",
+      slug: "angle-cock",
+    },
+    {
+      id: 8,
+      name: "Angle Cock 2 in 1",
+      image: "/images/products/cosmo-jr/angle-cock-2-in-1.png",
+      slug: "angle-cock-2-in-1",
+    },
+    {
+      id: 9,
+      name: "Concealed Stop Cock",
+      image: "/images/products/cosmo-jr/concealed-stop-cock.png",
+      slug: "concealed-stop-cock",
+    },
+    {
+      id: 10,
+      name: "Open Stop Cock",
+      image: "/images/products/cosmo-jr/open-stop-cock.png",
+      slug: "open-stop-cock",
+    },
+    {
+      id: 11,
+      name: "Swan Neck Tap",
+      image: "/images/products/cosmo-jr/swan-neck-tap.png",
+      slug: "swan-neck-tap",
+    },
+    {
+      id: 12,
+      name: "Sink Cock With Swivel Spout",
+      image: "/images/products/cosmo-jr/sink-cock-with-swivel-spout.png",
+      slug: "sink-cock-with-swivel-spout",
+    },
+    {
+      id: 13,
+      name: "Center Hole Basin Mixer",
+      image: "/images/products/cosmo-jr/center-hole-basin-mixer.png",
+      slug: "center-hole-basin-mixer",
+    },
+    {
+      id: 14,
+      name: "Sink Mixer with Swivel Spout",
+      image: "/images/products/cosmo-jr/sink-mixer-with-swivel-spout.png",
+      slug: "sink-mixer-with-swivel-spout",
+    },
+    {
+      id: 15,
+      name: "Wall Mixer Non Telephonic",
+      image: "/images/products/cosmo-jr/wall-mixer-non-telephonic.png",
+      slug: "wall-mixer-non-telephonic",
+    },
+    {
+      id: 16,
+      name: "Overhead Shower with Arm",
+      image: "/images/products/cosmo-jr/overhead-shower-with-arm.png",
+      slug: "overhead-shower-with-arm",
+    },
+    {
+      id: 17,
+      name: "Wall Mixer with Bend - Crutch (2 in 1)",
+      image: "/images/products/cosmo-jr/wall-mixer-with-bend-crutch-2-in-1.png",
+      slug: "wall-mixer-with-bend-crutch-2-in-1",
+    },
+    {
+      id: 18,
+      name: "Wall Mixer Divertor Spout W-O Tele. Shower & Flexible Tube & Hook ( 3 in 1)",
+      image: "/images/products/cosmo-jr/wall-mixer-divertor-spout-w-o-tele-shower-flexible-tube-hook-3-in-1.png",
+      slug: "wall-mixer-divertor-spout-w-o-tele-shower-flexible-tube-hook-3-in-1",
+    },
+  ],
 };
