@@ -3,9 +3,6 @@ import './SearchBar.css';
 import { IoSearch } from "react-icons/io5";
 
 const SearchBar = ({ search, setSearch }) => {
-
-    // const [search, setSearch] = useState("");
-
     return (
         <>
             <div className="search-bar">
