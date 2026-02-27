@@ -486,4 +486,103 @@ export const productsData = {
       slug: "overhead-shower-with-arm",
     },
   ],
+
+  "lily-series": [
+    {
+      id: 1,
+      name: "Pillar Cock Regular",
+      image: "/images/products/lily/pillar-cock-regular.png",
+      slug: "pillar-cock-regular",
+    },
+    {
+      id: 2,
+      name: "Pillar Cock Extended",
+      image: "/images/products/lily/pillar-cock-extended.png",
+      slug: "pillar-cock-extended",
+    },
+    {
+      id: 3,
+      name: "Bib Cock",
+      image: "/images/products/lily/bib-cock.png",
+      slug: "bib-cock",
+    },
+    {
+      id: 4,
+      name: "Bib Cock Long Body",
+      image: "/images/products/lily/bib-cock-long-body.png",
+      slug: "bib-cock-long-body",
+    },
+    {
+      id: 5,
+      name: "Bib Cock 2 in 1",
+      image: "/images/products/lily/bib-cock-2-in-1.png",
+      slug: "bib-cock-2-in-1",
+    },
+    {
+      id: 6,
+      name: "Angle cock",
+      image: "/images/products/lily/angle-cock.png",
+      slug: "angle-cock",
+    },
+    {
+      id: 7,
+      name: "Angle cock 2 in 1",
+      image: "/images/products/lily/angle-cock-2-in-1.png",
+      slug: "angle-cock-2-in-1",
+    },
+    {
+      id: 8,
+      name: "Concealed Stop Cock Uppertrim",
+      image: "/images/products/lily/concealed-stop-cock-uppertrim.png",
+      slug: "concealed-stop-cock-uppertrim",
+    },
+    {
+      id: 9,
+      name: "Swan Neck Tap",
+      image: "/images/products/lily/swan-neck-tap.png",
+      slug: "swan-neck-tap",
+    },
+    {
+      id: 10,
+      name: "Center Hole Basin Mixer",
+      image: "/images/products/lily/center-hole-basin-mixer.png",
+      slug: "center-hole-basin-mixer",
+    },
+    {
+      id: 11,
+      name: "Sink Cock",
+      image: "/images/products/lily/sink-cock.png",
+      slug: "sink-cock",
+    },
+    {
+      id: 12,
+      name: "Sink Cock With Swivel Spout",
+      image: "/images/products/lily/sink-cock-with-swivel-spout.png",
+      slug: "sink-cock-with-swivel-spout",
+    },
+    {
+      id: 13,
+      name: "Wall Mixer Non Telephonic",
+      image: "/images/products/lily/wall-mixer-non-telephonic.png",
+      slug: "wall-mixer-non-telephonic",
+    },
+    {
+      id: 14,
+      name: "Wall Mixer with Bend - Crutch (2 in 1)",
+      image: "/images/products/lily/wall-mixer-with-bend-crutch-2-in-1.png",
+      slug: "wall-mixer-with-bend-crutch-2-in-1",
+    },
+    {
+      id: 15,
+      name: "Wall Mixer Divertor Spout W-O Tele. Shower & flexible Tube & Hook (3 in 1)",
+      image: "/images/products/lily/wall-mixer-divertor-spout-w-o-tele-shower-flexible-tube-hook-3-in-1.png",
+      slug: "wall-mixer-divertor-spout-w-o-tele-shower-flexible-tube-hook-3-in-1",
+    },
+    {
+      id: 16,
+      name: "Overhead Shower with Arm",
+      image: "/images/products/lily/overhead-shower-with-arm.png",
+      slug: "overhead-shower-with-arm",
+    },
+  ]
 };
