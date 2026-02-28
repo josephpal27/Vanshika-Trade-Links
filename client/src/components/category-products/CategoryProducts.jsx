@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 import { categoryData } from '../../data/categoryData';
 import { productsData } from '../../data/productsData';
 import SearchBar from '../search-bar/SearchBar';
+import ProductCard from './ProductCard';
 import { TbFaceIdError } from "react-icons/tb";
-import { FaArrowRight } from "react-icons/fa";
 import './CategoryProducts.css';
 
 const CategoryProducts = () => {
@@ -53,7 +53,6 @@ const CategoryProducts = () => {
                         </div>
                         {/* Products Row */}
                         <div className="products-row">
-                            {/* Product Cards Row */}
                             <div className="products-cards-row">
                                 {
                                     products.length === 0 ? (
@@ -64,17 +63,11 @@ const CategoryProducts = () => {
                                     ) : (
                                         products.map((product) => {
                                             return (
-                                                <div className="product-card" key={product.id}>
-                                                    <div className="card-image">
-                                                        <img src={product.image} alt={product.name} loading="lazy" />
-                                                    </div>
-                                                    <div className="card-desc">
-                                                        <span>{product.name}</span>
-                                                        <Link to={`/category/${categorySlug}/${product.slug}`}>
-                                                            Explore <FaArrowRight className="icon" />
-                                                        </Link>
-                                                    </div>
-                                                </div>
+                                                <ProductCard
+                                                    key={product.id}
+                                                    product={product}
+                                                    categorySlug={categorySlug}
+                                                />
                                             )
                                         })
                                     )
