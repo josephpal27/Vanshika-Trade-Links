@@ -62,8 +62,6 @@ const ProductsShowcase = () => {
                         delay: 0,
                         disableOnInteraction: false,
                     }}
-                    freeMode={true}
-                    freeModeMomentum={false}
                     breakpoints={{
                         0: { slidesPerView: 2 },
                         576: { slidesPerView: 3 },
