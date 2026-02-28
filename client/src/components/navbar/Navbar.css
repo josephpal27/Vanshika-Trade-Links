@@ -21,7 +21,6 @@
 }
 .navbar .view-products-btn .icon{
     font-size: 0.9rem;
-    margin-left: 0.3rem;
     margin-left: -0.7rem;
     transition: opacity 0.2s ease, margin-left 0.25s ease;
     opacity: 0;
@@ -134,42 +133,10 @@
   } */
 }
 
-/* @media screen and (min-width: 1230px) and (max-width: 1399px) {
-  .navbar {
-    padding: 0.7rem 7% !important;
-  }
-  .navbar .nav-brand img {
-    width: 55px;
-  }
-  .navbar .nav-link {
-    font-size: calc(0.5rem + 0.5vw);
-    margin: 0 1.4rem;
-  }
-  .navbar .get-in-touch-btn {
-    padding: 0.5rem 1rem;
-    font-size: calc(0.5rem + 0.5vw);
-  }
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+  
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-  .navbar {
-    padding: 0.5rem 7% !important;
-  }
-  .navbar .nav-brand img {
-    width: 50px;
-  }
-  .navbar .nav {
-    padding-left: 2.3rem;
-  }
-  .navbar .nav-link {
-    font-size: calc(0.45rem + 0.5vw);
-    margin: 0 1.3rem;
-  }
-  .navbar .nav-link::after {
-    bottom: -3px;
-  }
-  .navbar .get-in-touch-btn {
-    padding: 0.45rem 0.9rem;
-    font-size: calc(0.45rem + 0.5vw);
-  }
-} */
+  
+}
