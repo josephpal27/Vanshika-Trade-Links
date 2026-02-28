@@ -3,6 +3,9 @@
     background-color: #fff;
     width: 100%;
 }
+.navbar .left-btn-wrapper{
+    width: 20%;
+}
 .navbar .view-products-btn{
     background-color: #000;
     color: #fff;
@@ -14,17 +17,18 @@
     transition: all 0.2s ease;
     display: flex;
     align-items: center;
+    width: fit-content;
 }
 .navbar .view-products-btn .icon{
     font-size: 0.9rem;
     margin-left: 0.3rem;
-    margin-left: -1rem;
+    margin-left: -0.7rem;
     transition: opacity 0.2s ease, margin-left 0.25s ease;
     opacity: 0;
 }
 .navbar .view-products-btn:hover .icon{
     opacity: 1;
-    margin-left: 0.5rem;
+    margin-left: 0.7rem;
 }
 .navbar .view-products-btn:hover{
     background-color: #1e1e1e;
@@ -39,7 +43,6 @@
 }
 .navbar .centered-logo img{
     width: 100px;
-    margin-left: 4rem;
 }
 .navbar .right-btn-wrapper{
     display: flex;

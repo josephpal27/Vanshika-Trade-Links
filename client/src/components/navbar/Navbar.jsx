@@ -15,9 +15,11 @@ const MyNavbar = () => {
 
     return (
         <Navbar expand="lg" className="navbar">
-            <Nav.Link as={NavLink} to="/category" className="view-products-btn" onClick={handleClose}>
-                View Our Products <FaArrowRight className="icon" />
-            </Nav.Link>
+            <div className="left-btn-wrapper">
+                <Nav.Link as={NavLink} to="/category" className="view-products-btn" onClick={handleClose}>
+                    View Our Products <FaArrowRight className="icon" />
+                </Nav.Link>
+            </div>
 
             {/* Toggle button opens Offcanvas */}
             <Navbar.Toggle onClick={handleShow} />
