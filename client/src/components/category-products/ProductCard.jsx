@@ -8,7 +8,7 @@ const ProductCard = ({ product, categorySlug }) => {
 
     return (
         <>
-            <div className="product-card" key={product.id}>
+            <div className="product-card">
                 <div className="card-image">
                     {!imgLoaded && <div className="image-skeleton"></div>}
                     <img

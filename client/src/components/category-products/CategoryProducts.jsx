@@ -46,7 +46,13 @@ const CategoryProducts = () => {
                             {
                                 categoryData.map((category) => {
                                     return (
-                                        <Link to={`/category/${category.slug}`} className={category.slug === categorySlug ? "active" : ""}>{category.name}</Link>
+                                        <Link
+                                            to={`/category/${category.slug}`}
+                                            className={category.slug === categorySlug ? "active" : ""}
+                                            key={category.id}
+                                        >
+                                            {category.name}
+                                        </Link>
                                     )
                                 })
                             }
@@ -64,9 +70,9 @@ const CategoryProducts = () => {
                                         products.map((product) => {
                                             return (
                                                 <ProductCard
-                                                    key={product.id}
                                                     product={product}
                                                     categorySlug={categorySlug}
+                                                    key={product.id}
                                                 />
                                             )
                                         })
