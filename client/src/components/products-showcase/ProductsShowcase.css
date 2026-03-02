@@ -24,3 +24,30 @@
     display: block;
     margin-top: 1.2rem;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .products-showcase{
+        padding: 2.5rem 5%;
+    }
+    .products-showcase .swiper-slide{
+        padding-bottom: 1.1rem;
+    }
+    .products-showcase .swiper-slide span{
+        font-size: 0.55rem;
+        margin-top: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .products-showcase{
+        padding: 2rem 5%;
+    }
+    .products-showcase .swiper-slide{
+        padding-bottom: 1rem;
+    }
+    .products-showcase .swiper-slide span{
+        font-size: 0.45rem;
+        margin-top: 1rem;
+    }
+}

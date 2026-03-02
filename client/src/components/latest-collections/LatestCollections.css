@@ -39,3 +39,26 @@
 .latest-collections .latest-collection-content a:hover{
     background-color: #1e1e1e;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .latest-collections .latest-collection-content h3{
+        font-size: 2.4rem;
+    }
+    .latest-collections .latest-collection-content a{
+        padding: 0.45rem 1.1rem;
+        font-size: 0.9rem;
+        margin-top: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .latest-collections .latest-collection-content h3{
+        font-size: 2.2rem;
+    }
+    .latest-collections .latest-collection-content a{
+        padding: 0.4rem 1rem;
+        font-size: 0.8rem;
+        margin-top: 0.8rem;
+    }
+}
