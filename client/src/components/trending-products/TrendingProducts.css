@@ -77,3 +77,58 @@
 .trending-products .trending-products-row .overlay a:hover{
     background-color: #1e1e1e;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .trending-products{
+        padding: 2.5rem 0;
+    }
+    .trending-products h1{
+        font-size: 1.7rem;
+        letter-spacing: 2.5px;
+    }
+    .trending-products .trending-products-row{
+        margin-top: 2.2rem;
+    }
+    .trending-products .trending-products-row .product-box{
+        margin-bottom: 1.15rem;
+    }
+    .trending-products .trending-products-row .overlay{
+        padding: 1rem;
+    }
+    .trending-products .trending-products-row .overlay span{
+        font-size: 1.1rem;
+    }
+    .trending-products .trending-products-row .overlay a{
+        padding: 0.45rem 1.1rem;
+        font-size: 0.9rem;
+        margin-top: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .trending-products{
+        padding: 2rem 0;
+    }
+    .trending-products h1{
+        font-size: 1.6rem;
+        letter-spacing: 2px;
+    }
+    .trending-products .trending-products-row{
+        margin-top: 1.7rem;
+    }
+    .trending-products .trending-products-row .product-box{
+        margin-bottom: 1rem;
+    }
+    .trending-products .trending-products-row .overlay{
+        padding: 0.9rem;
+    }
+    .trending-products .trending-products-row .overlay span{
+        font-size: 1rem;
+    }
+    .trending-products .trending-products-row .overlay a{
+        padding: 0.4rem 1rem;
+        font-size: 0.8rem;
+        margin-top: 0.8rem;
+    }
+}
