@@ -134,9 +134,81 @@
 }
 
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-  
+  .navbar{
+      padding: 0.15rem 5% !important;
+  }
+  .navbar .view-products-btn{
+      font-size: 0.9rem;
+      padding: 0.45rem 1.4rem;
+      border-top-left-radius: 13px;
+      border-bottom-right-radius: 13px;
+  }
+  .navbar .view-products-btn .icon{
+      font-size: 0.8rem;
+      margin-left: -0.6rem;
+  }
+  .navbar .view-products-btn:hover .icon{
+      margin-left: 0.6rem;
+  }
+  .navbar .view-products-btn:hover{
+      border-top-right-radius: 13px;
+      border-bottom-left-radius: 13px;
+  }
+  .navbar .centered-logo img{
+      width: 90px;
+  }
+  .navbar .right-btn-wrapper{
+      gap: 1.8rem;
+  }
+  .navbar .download-btn{
+      font-size: 0.9rem;
+      gap: 0.4rem;
+  }
+  .navbar .download-btn .download-icon{
+      font-size: 1rem;
+  }
+  .navbar .get-in-touch-btn{
+      font-size: 0.9rem;
+      padding: 0.25rem 0.7rem;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-  
+  .navbar{
+      padding: 0.1rem 5% !important;
+  }
+  .navbar .view-products-btn{
+      font-size: 0.8rem;
+      padding: 0.4rem 1.3rem;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+  .navbar .view-products-btn .icon{
+      font-size: 0.7rem;
+      margin-left: -0.5rem;
+  }
+  .navbar .view-products-btn:hover .icon{
+      margin-left: 0.5rem;
+  }
+  .navbar .view-products-btn:hover{
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+  }
+  .navbar .centered-logo img{
+      width: 80px;
+  }
+  .navbar .right-btn-wrapper{
+      gap: 1.5rem;
+  }
+  .navbar .download-btn{
+      font-size: 0.8rem;
+      gap: 0.35rem;
+  }
+  .navbar .download-btn .download-icon{
+      font-size: 0.9rem;
+  }
+  .navbar .get-in-touch-btn{
+      font-size: 0.8rem;
+      padding: 0.25rem 0.7rem;
+  }
 }
