@@ -55,7 +55,7 @@ const HomeBanner = () => {
                                     <img src={item.image} alt={`Banner Slide ${item.id}`} />
                                     <div className="slide-content">
                                         <span dangerouslySetInnerHTML={{ __html: item.title }} />
-                                        <Link to="/products">SHOP NOW</Link>
+                                        <Link to="/category">SHOP NOW</Link>
                                     </div>
                                 </SwiperSlide>
                             )

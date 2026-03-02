@@ -62,7 +62,7 @@ const SpecialProducts = () => {
                                         <img src={item.image} alt={`Product ${item.id}`} />
                                         <div className="slide-content">
                                             <span dangerouslySetInnerHTML={{ __html: item.title }} />
-                                            <Link to="/">View Details</Link>
+                                            <Link to="/category">View Details</Link>
                                         </div>
                                     </SwiperSlide>
                                 )

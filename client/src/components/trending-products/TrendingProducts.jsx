@@ -42,7 +42,7 @@ const TrendingProducts = () => {
                                     <img src={item.image} alt={`Product-${item.id}`} loading="lazy" />
                                     <div className="overlay">
                                         <span dangerouslySetInnerHTML={{__html: item.title}}/>
-                                        <Link to="/">View Details</Link>
+                                        <Link to="/category">View Details</Link>
                                     </div>
                                 </div>
                             )

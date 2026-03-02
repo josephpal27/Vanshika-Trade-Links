@@ -38,7 +38,7 @@ footer .foot-social a{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 2px;
+    border-radius: 50%;
     transition: all 0.2s ease;
 }
 footer .foot-social a:hover{

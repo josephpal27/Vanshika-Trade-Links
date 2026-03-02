@@ -8,7 +8,7 @@ const LatestCollections = () => {
                 <img src="/images/latest-collections-bg.png" alt="Latest Collections" loading="lazy" />
                 <div className="latest-collection-content">
                     <h3><span>LATEST</span> COLLECTIONS</h3>
-                    <Link to="/collections">View Details</Link>
+                    <Link to="/category">View Details</Link>
                 </div>
             </section>
         </>
