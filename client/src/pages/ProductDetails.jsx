@@ -1,9 +1,9 @@
-import CategoryProductsBanner from "../components/category-products-banner/CategoryProductsBanner";
+import ProductDetailsBanner from "../components/product-details-banner/ProductDetailsBanner";
 
 const ProductDetails = () => {
     return (
         <>
-            <CategoryProductsBanner />
+            <ProductDetailsBanner />
         </>
     )
 }
