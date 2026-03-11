@@ -10,6 +10,7 @@ import Home from './pages/Home.jsx';
 import Category from './pages/Category';
 import LoadingSpinner from './components/LoadingSpinner.jsx';
 const Products = lazy(() => import('./pages/Products.jsx'));
+const ProductDetails = lazy(() => import('./pages/ProductDetails.jsx'));
 
 let routers = createBrowserRouter([
   {
@@ -23,6 +24,13 @@ let routers = createBrowserRouter([
         path: "/category/:categorySlug", element: (
           <Suspense fallback={<LoadingSpinner />}>
             <Products />
+          </Suspense>
+        )
+      },
+      {
+        path: "/category/:categorySlug/:productSlug", element: (
+          <Suspense fallback={<LoadingSpinner />}>
+            <ProductDetails />
           </Suspense>
         )
       },
