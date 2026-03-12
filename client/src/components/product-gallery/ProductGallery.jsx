@@ -28,7 +28,7 @@ const ProductGallery = () => {
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum tempore libero iusto non temporibus saepe pariatur impedit consequatur quis fugiat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime ullam ratione nostrum perferendis a quia commodi quisquam eos velit vel.
                     </p>
-                    <Link to="/contact">
+                    <Link to="/product-enquiry">
                         Enquire Now <FaArrowRight className="icon" />
                     </Link>
                 </div>

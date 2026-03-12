@@ -8,6 +8,7 @@ import './index.css'; // Import custom CSS
 import App from './App.jsx';
 import Home from './pages/Home.jsx';
 import Category from './pages/Category';
+import ProductEnquiry from './pages/ProductEnquiry';
 import LoadingSpinner from './components/LoadingSpinner.jsx';
 const Products = lazy(() => import('./pages/Products.jsx'));
 const ProductDetails = lazy(() => import('./pages/ProductDetails.jsx'));
@@ -20,6 +21,7 @@ let routers = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/category", element: <Category /> },
+      { path: "/product-enquiry", element: <ProductEnquiry /> },
       {
         path: "/category/:categorySlug", element: (
           <Suspense fallback={<LoadingSpinner />}>

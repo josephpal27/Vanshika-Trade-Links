@@ -1,0 +1,44 @@
+.enquiry-details{
+    padding: 4rem 5%;
+}
+.enquiry-details h2{
+    font-size: 1.8rem;
+    font-weight: 550;
+    color: #000;
+}
+.enquiry-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+    background-color: #000;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 8px;
+    padding: 1.2rem;
+}
+.enquiry-product .card-image{
+    width: 11%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+.enquiry-product .card-image img{
+    width: 100%;
+    scale: 1;
+    transition: scale 0.5s ease, opacity 0.3s ease;
+}
+.enquiry-product:hover img{
+    scale: 1.05;
+}
+.enquiry-product .card-content{
+    width: 85%;
+}
+.enquiry-product .card-content span{
+    color: #e6e6e6;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.enquiry-product .card-content h3{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}

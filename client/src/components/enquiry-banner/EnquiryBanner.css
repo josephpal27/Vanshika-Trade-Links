@@ -1,11 +1,11 @@
-.product-details-banner{
+.enquiry-banner{
     position: relative;
     overflow: hidden;
 }
-.product-details-banner img{
+.enquiry-banner img{
     width: 100%;
 }
-.product-details-banner .banner-content{
+.enquiry-banner .banner-content{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -16,23 +16,22 @@
     justify-content: center;
     background: linear-gradient(to right, #000000b1 30%, #00000000);
 }
-.product-details-banner .banner-content h1{
+.enquiry-banner .banner-content h1{
     color: #fff;
     font-weight: 550;
     font-size: 2.5rem;
     text-transform: uppercase;
-    text-align: center;
 }
-.product-details-banner .banner-content span{
+.enquiry-banner .banner-content span{
     color: #fff;
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-top: 0.4rem;
 }
-.product-details-banner .banner-content span a{
+.enquiry-banner .banner-content span a{
     color: #fff;
     text-decoration: none;
 }
-.product-details-banner .banner-content span a:hover{
+.enquiry-banner .banner-content span a:hover{
     text-decoration: underline;
 }
