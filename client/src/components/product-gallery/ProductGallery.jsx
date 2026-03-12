@@ -11,7 +11,7 @@ const ProductGallery = () => {
                 </div>
                 <div className="gallery-content">
                     <span>Rainbow Series</span>
-                    <h2>Pillar Cock Regular</h2>
+                    <span id="product-name">Pillar Cock Regular</span>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum tempore libero iusto non temporibus saepe pariatur impedit consequatur quis fugiat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime ullam ratione nostrum perferendis a quia commodi quisquam eos velit vel.</p>
                     <Link to="/contact">
                         Enquire Now <FaArrowRight className="icon" />

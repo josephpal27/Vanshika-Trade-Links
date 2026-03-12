@@ -9,7 +9,7 @@ const ProductDetailsBanner = () => {
     return (
         <>
             <section className="product-details-banner">
-                <img src="/images/banners/products-banner.png" alt="Products Banner" loading="lazy" />
+                <img src="/images/banners/product-details-banner.png" alt="Products Banner" loading="lazy" />
                 <div className="banner-content">
                     {/* <h1>{categoryData.find(cat => cat.slug === categorySlug)?.name || "Products"}</h1> */}
                     <h1>Pillar Cock Regular</h1>
