@@ -1,0 +1,67 @@
+.product-gallery{
+    padding: 4rem 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.gallery-image{
+    width: 45%;
+    padding: 3rem;
+    aspect-ratio: 1/1;
+    background-color: #000;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    overflow: hidden;
+}
+.gallery-image img{
+    width: 100%;
+    scale: 1;
+    transition: scale 0.5s ease, opacity 0.3s ease;
+}
+.gallery-image img:hover{
+    scale: 1.05;
+}
+.gallery-content{
+    width: 50%;
+    overflow: hidden;
+}
+.gallery-content span{
+    font-size: 1rem;
+    font-weight: 550;
+    color: #848484;
+}
+.gallery-content h2{
+    font-weight: 550;
+    font-size: 2.2rem;
+    margin-top: 0.5rem;
+}
+.gallery-content p{
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.gallery-content a{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.6rem 1.3rem;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-weight: 500;
+    border-radius: 4px;
+}
+.gallery-content a:hover{
+    background-color: #1e1e1e;
+}
+.gallery-content a .icon{
+    font-size: 1rem;
+    margin-left: -0.8rem;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+.gallery-content a:hover .icon{
+    margin-left: 0.6rem;
+    opacity: 1;
+}
