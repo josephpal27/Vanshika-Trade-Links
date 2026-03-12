@@ -86,3 +86,6 @@
 .enquiry-form form button:hover{
     background-color: #1e1e1e;
 }
+.enquiry-form form button:active{
+    scale: 0.95;
+}
