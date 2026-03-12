@@ -1,3 +1,5 @@
+import { useParams } from "react-router-dom";
+import { productsData } from "../../data/productsData";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -7,6 +9,13 @@ import "swiper/css/pagination";
 import './RelatedProducts.css';
 
 const RelatedProducts = () => {
+
+    const { categorySlug, productSlug } = useParams();
+
+    const relatedProducts = productsData[categorySlug]?.filter(
+        (product) => product.slug !== productSlug
+    ) || [];
+
     return (
         <>
             <section className="related-products">
@@ -29,63 +38,25 @@ const RelatedProducts = () => {
                             nextEl: ".next",
                         }}
                     >
-                        <SwiperSlide key="">
-                            <div className="image-box">
-                                <img src="/images/products/rainbow/pillar-cock-regular.png" alt="" loading="lazy" />
-                            </div>
-                            <div className="card-desc">
-                                <span>Product Name</span>
-                                <Link to="">
-                                    Explore <FaArrowRight className="icon" />
-                                </Link>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide key="">
-                            <div className="image-box">
-                                <img src="/images/products/rainbow/pillar-cock-regular.png" alt="" loading="lazy" />
-                            </div>
-                            <div className="card-desc">
-                                <span>Product Name</span>
-                                <Link to="">
-                                    Explore <FaArrowRight className="icon" />
-                                </Link>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide key="">
-                            <div className="image-box">
-                                <img src="/images/products/rainbow/pillar-cock-regular.png" alt="" loading="lazy" />
-                            </div>
-                            <div className="card-desc">
-                                <span>Product Name</span>
-                                <Link to="">
-                                    Explore <FaArrowRight className="icon" />
-                                </Link>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide key="">
-                            <div className="image-box">
-                                <img src="/images/products/rainbow/pillar-cock-regular.png" alt="" loading="lazy" />
-                            </div>
-                            <div className="card-desc">
-                                <span>Product Name</span>
-                                <Link to="">
-                                    Explore <FaArrowRight className="icon" />
-                                </Link>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide key="">
-                            <div className="image-box">
-                                <img src="/images/products/rainbow/pillar-cock-regular.png" alt="" loading="lazy" />
-                            </div>
-                            <div className="card-desc">
-                                <span>Product Name</span>
-                                <Link to="">
-                                    Explore <FaArrowRight className="icon" />
-                                </Link>
-                            </div>
-                        </SwiperSlide>
+                        {
+                            relatedProducts.map((product, index) => {
+                                return (
+                                    <SwiperSlide key={index}>
+                                        <div className="image-box">
+                                            <img src={product.image} alt={product.name} loading="lazy" />
+                                        </div>
+                                        <div className="card-desc">
+                                            <span>{product.name}</span>
+                                            <Link to={`/category/${categorySlug}/${product.slug}`}>
+                                                Explore <FaArrowRight className="icon" />
+                                            </Link>
+                                        </div>
+                                    </SwiperSlide>
+                                )
+                            })
+                        }
                     </Swiper>
-                    
+
                     {/* custom arrows */}
                     <button className="prev">&#10094;</button>
                     <button className="next">&#10095;</button>
