@@ -42,3 +42,47 @@
     font-weight: 600;
     margin-top: 0.5rem;
 }
+
+.enquiry-form{
+    margin-top: 4rem;
+}
+.enquiry-form form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.enquiry-form form input,
+.enquiry-form form textarea{
+    width: 49%;
+    margin-bottom: 1.5rem;
+    padding: 1.4rem 1rem;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: #f6f6f6;
+    border: none;
+    outline: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.enquiry-form form input:focus,
+.enquiry-form form textarea:focus{
+    box-shadow: rgba(0, 0, 0, 0.381) 0px 1px 2px 0px, rgba(0, 0, 0, 0.293) 0px 1px 3px 1px;
+}
+.enquiry-form form textarea{
+    width: 100%;
+    min-height: 12rem;
+    max-height: 15rem;
+}
+.enquiry-form form button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 1.2rem 3rem;
+    font-size: 1.1rem;
+    font-weight: 550;
+    letter-spacing: 2px;
+    transition: all 0.2s ease;
+}
+.enquiry-form form button:hover{
+    background-color: #1e1e1e;
+}
