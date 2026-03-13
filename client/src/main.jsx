@@ -3,15 +3,17 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import './index.css'; // Import custom CSS
+import "react-toastify/dist/ReactToastify.css"; // Import Toastify CSS
 // import "aos/dist/aos.css"; // Import AOS CSS
 
 import App from './App.jsx';
 import Home from './pages/Home.jsx';
 import Category from './pages/Category';
-import ProductEnquiry from './pages/ProductEnquiry';
+// import ProductEnquiry from './pages/ProductEnquiry';
 import LoadingSpinner from './components/LoadingSpinner.jsx';
 const Products = lazy(() => import('./pages/Products.jsx'));
 const ProductDetails = lazy(() => import('./pages/ProductDetails.jsx'));
+const ProductEnquiry = lazy(() => import('./pages/ProductEnquiry.jsx'));
 
 let routers = createBrowserRouter([
   {
@@ -21,7 +23,7 @@ let routers = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/category", element: <Category /> },
-      { path: "/product-enquiry", element: <ProductEnquiry /> },
+      // { path: "/product-enquiry", element: <ProductEnquiry /> },
       {
         path: "/category/:categorySlug", element: (
           <Suspense fallback={<LoadingSpinner />}>
@@ -33,6 +35,13 @@ let routers = createBrowserRouter([
         path: "/category/:categorySlug/:productSlug", element: (
           <Suspense fallback={<LoadingSpinner />}>
             <ProductDetails />
+          </Suspense>
+        )
+      },
+      {
+        path: "/category/:categorySlug/:productSlug/enquiry", element: (
+          <Suspense fallback={<LoadingSpinner />}>
+            <ProductEnquiry />
           </Suspense>
         )
       },
