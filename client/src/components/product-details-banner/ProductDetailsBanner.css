@@ -36,3 +36,24 @@
 .product-details-banner .banner-content span a:hover{
     text-decoration: underline;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .product-details-banner .banner-content h1{
+        font-size: 2.3rem;
+    }
+    .product-details-banner .banner-content span{
+        font-size: 0.8rem;
+        margin-top: 0.35rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .product-details-banner .banner-content h1{
+        font-size: 2.1rem;
+    }
+    .product-details-banner .banner-content span{
+        font-size: 0.7rem;
+        margin-top: 0.25rem;
+    }
+}
