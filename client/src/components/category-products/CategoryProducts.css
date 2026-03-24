@@ -160,3 +160,103 @@
     0% { background-position: 100% 0; }
     100% { background-position: -100% 0; }
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .search-bar-container{
+        padding: 3.7rem 5% 1.7rem 5%;
+    }
+    .products-container .product-container-head h2{
+        font-size: 1.5rem;
+    }
+    .products-container .product-container-body{
+        margin-top: 1.4rem;
+    }
+    .products-container .collections{
+        top: 65px;
+    }
+    .products-container .collections a{
+        font-size: 1rem;
+        padding: 1rem 0.9rem;
+    }
+
+    .products-container .products-cards-row .no-products .icon{
+        font-size: 1.4rem;
+    }
+    .products-container .products-cards-row .no-products p{
+        font-size: 0.9rem;
+    }
+    .products-container .products-cards-row .product-card{
+        margin-bottom: 1.2rem;
+    }
+    .products-container .products-cards-row .product-card .card-desc{
+        padding: 1.1rem 0.9rem;
+    }
+    .products-container .products-cards-row .product-card span{
+        font-size: 1.1rem;
+    }
+    .products-container .products-cards-row .product-card a{
+        font-size: 0.8rem;
+        padding: 0.32rem 0.85rem;
+        margin-top: 0.7rem;
+        border-radius: 3px;
+    }
+    .products-container .products-cards-row .product-card .icon{
+        font-size: 0.75rem;
+        margin-left: -0.6rem;
+    }
+    .products-container .products-cards-row .product-card a:hover .icon{
+        margin-left: 0.35rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .search-bar-container{
+        padding: 3.4rem 5% 1.4rem 5%;
+    }
+    .products-container{
+        padding: 0 5% 3rem 5%;
+    }
+    .products-container .product-container-head h2{
+        font-size: 1.3rem;
+    }
+    .products-container .product-container-body{
+        margin-top: 1.3rem;
+    }
+    .products-container .collections{
+        top: 60px;
+    }
+    .products-container .collections a{
+        font-size: 0.9rem;
+        padding: 0.9rem 0.8rem;
+    }
+
+    .products-container .products-cards-row .no-products .icon{
+        font-size: 1.3rem;
+    }
+    .products-container .products-cards-row .no-products p{
+        font-size: 0.8rem;
+    }
+    .products-container .products-cards-row .product-card{
+        margin-bottom: 1.1rem;
+    }
+    .products-container .products-cards-row .product-card .card-desc{
+        padding: 1rem 0.8rem;
+    }
+    .products-container .products-cards-row .product-card span{
+        font-size: 0.95rem;
+    }
+    .products-container .products-cards-row .product-card a{
+        font-size: 0.7rem;
+        padding: 0.28rem 0.73rem;
+        margin-top: 0.6rem;
+        border-radius: 3px;
+    }
+    .products-container .products-cards-row .product-card .icon{
+        font-size: 0.65rem;
+        margin-left: -0.6rem;
+    }
+    .products-container .products-cards-row .product-card a:hover .icon{
+        margin-left: 0.35rem;
+    }
+}

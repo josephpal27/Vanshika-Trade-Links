@@ -27,3 +27,32 @@
 .search-bar input:focus-within ~ .search-icon{
     scale: 1.15;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .search-bar{
+        border: 2px solid #000;
+    }
+    .search-bar input{
+        padding: 0.65rem 0.9rem 0.65rem 3.4rem;
+        font-size: 0.9rem;
+    }
+    .search-bar .search-icon{
+        font-size: 1.6rem;
+        left: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .search-bar{
+        border: 1.8px solid #000;
+    }
+    .search-bar input{
+        padding: 0.55rem 0.8rem 0.55rem 3.3rem;
+        font-size: 0.8rem;
+    }
+    .search-bar .search-icon{
+        font-size: 1.4rem;
+        left: 0.7rem;
+    }
+}

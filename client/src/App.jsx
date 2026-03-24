@@ -36,7 +36,7 @@ const App = () => {
       <MyNavbar />
       <Header />
       <Outlet />
-      <Footer/>
+      <Footer />
       <ScrollToTop />
       <ToastContainer position="top-right" autoClose={3000} />
     </>
