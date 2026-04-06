@@ -89,3 +89,82 @@
 .enquiry-form form button:active{
     scale: 0.95;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .enquiry-details{
+        padding: 3.5rem 5% 4.5rem 5%;
+    }
+    .enquiry-details h2{
+        font-size: 1.7rem;
+    }
+    .enquiry-product{
+        margin-top: 1.8rem;
+        padding: 1.1rem;
+    }
+    .enquiry-product .card-content span{
+        font-size: 0.9rem;
+    }
+    .enquiry-product .card-content h3{
+        font-size: 1.5rem;
+        margin-top: 0.4rem;
+    }
+
+    .enquiry-form{
+        margin-top: 3.8rem;
+    }
+    .enquiry-form form input,
+    .enquiry-form form textarea{
+        margin-bottom: 1.4rem;
+        padding: 1.3rem 0.9rem;
+        font-size: 1rem;
+    }
+    .enquiry-form form textarea{
+        min-height: 11rem;
+        max-height: 14rem;
+    }
+    .enquiry-form form button{
+        padding: 1.1rem 2.9rem;
+        font-size: 1rem;
+        letter-spacing: 1.5px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .enquiry-details{
+        padding: 3rem 5% 4rem 5%;
+    }
+    .enquiry-details h2{
+        font-size: 1.5rem;
+    }
+    .enquiry-product{
+        margin-top: 1.6rem;
+        padding: 1rem;
+    }
+    .enquiry-product .card-content span{
+        font-size: 0.8rem;
+    }
+    .enquiry-product .card-content h3{
+        font-size: 1.4rem;
+        margin-top: 0.3rem;
+    }
+
+    .enquiry-form{
+        margin-top: 3.6rem;
+    }
+    .enquiry-form form input,
+    .enquiry-form form textarea{
+        margin-bottom: 1.3rem;
+        padding: 1.15rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    .enquiry-form form textarea{
+        min-height: 10rem;
+        max-height: 13rem;
+    }
+    .enquiry-form form button{
+        padding: 1rem 2.8rem;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+    }
+}
