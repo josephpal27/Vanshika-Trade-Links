@@ -53,6 +53,17 @@ const SpecialProducts = () => {
                             prevEl: ".prev",
                             nextEl: ".next",
                         }}
+                        breakpoints={{
+                            0: {
+                                slidesPerView: 1, // mobile
+                            },
+                            768: {
+                                slidesPerView: 2, // tablet
+                            },
+                            1024: {
+                                slidesPerView: 2, // desktop
+                            },
+                        }}
                     >
 
                         {

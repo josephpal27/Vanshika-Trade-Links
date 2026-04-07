@@ -77,6 +77,18 @@ const BestSellers = () => {
                             prevEl: ".prev",
                             nextEl: ".next",
                         }}
+                        breakpoints={{
+                            0: {
+                                slidesPerView: 2, // mobile
+                                spaceBetween: 10,
+                            },
+                            768: {
+                                slidesPerView: 3, // tablet
+                            },
+                            1024: {
+                                slidesPerView: 4, // desktop
+                            },
+                        }}
                     >
 
                         {

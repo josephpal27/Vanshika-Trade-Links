@@ -62,3 +62,18 @@
         margin-top: 0.8rem;
     }
 }
+
+/* Mobile Screens */
+@media screen and (max-width: 767px) {
+    .latest-collections .latest-collection-content{
+        padding: 0 1rem;
+    }
+    .latest-collections .latest-collection-content h3{
+        font-size: 1.5rem;
+    }
+    .latest-collections .latest-collection-content a{
+        padding: 0.3rem 0.8rem;
+        font-size: 0.9rem;
+        margin-top: 0.2rem;
+    }
+}

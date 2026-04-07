@@ -132,3 +132,41 @@
         margin-top: 0.8rem;
     }
 }
+
+/* Mobile Screens */
+@media screen and (max-width: 767px) {
+    .trending-products{
+        padding: 1.5rem 0;
+    }
+    .trending-products h1{
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+    }
+    .trending-products .trending-products-row{
+        margin-top: 1.5rem;
+    }
+    .trending-products .trending-products-row .product-box{
+        width: 100%;
+        height: auto;
+        margin-bottom: 0.5rem;
+    }
+    .trending-products .trending-products-row #product-box-3,
+    .trending-products .trending-products-row #product-box-5{
+        width: 100%;
+        aspect-ratio: 3/2;
+    }
+    .trending-products .trending-products-row #product-box-4{
+        width: 100%;
+    }
+    .trending-products .trending-products-row .overlay{
+        padding: 1rem;
+    }
+    .trending-products .trending-products-row .overlay span{
+        font-size: 1rem;
+    }
+    .trending-products .trending-products-row .overlay a{
+        padding: 0.3rem 0.8rem;
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+}

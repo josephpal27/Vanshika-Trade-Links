@@ -181,3 +181,53 @@
         font-size: 1.3rem;
     }
 }
+
+/* Mobile Screens */
+@media screen and (max-width: 767px) {
+    .special-products{
+        padding: 0 0 0 0;
+    }
+    .special-products-head{
+        padding: 0 1rem;
+    }
+    .special-products-head h2{
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+        padding: 0 1.5rem 0.5rem 1.5rem;
+        border-bottom: 2px solid #3f3f3f;
+    }
+    .special-products-head p{
+        font-size: 1rem;
+        margin-top: 0.3rem;
+    }
+    .special-products-head p br{
+        display: none;
+    }
+    .special-products-slider{
+        margin-top: 0.5rem;
+    }
+    .special-products-slider .swiper-slide .slide-content{
+        padding: 1rem;
+    }
+    .special-products-slider .slide-content span{
+        font-size: 1rem;
+    }
+    .special-products-slider .slide-content a{
+        padding: 0.3rem 0.8rem;
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+
+    /* Custom Navigation */
+    .special-products-slider .prev,
+    .special-products-slider .next{
+        font-size: 1.3rem;
+        padding: 0.1rem 0.8rem;
+    }
+    .special-products-slider .prev{
+        left: 0;
+    }
+    .special-products-slider .next{
+        right: 0;
+    }
+}
