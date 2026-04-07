@@ -99,3 +99,24 @@
         font-size: 1rem;
     }
 }
+
+/* Mobile Screens */
+@media screen and (max-width: 767px) {
+    .category-list{
+        padding: 1.5rem 1rem 1rem 1rem;
+    }
+    .category-cards-row{
+        justify-content: space-between;
+        gap: 0;
+    }
+    .category-list .category-card{
+        margin-bottom: 1rem;
+        width: 48%;
+    }
+    .category-list .category-card .card-desc{
+        padding: 0.7rem 0.5rem;
+    }
+    .category-list .category-card .card-desc span{
+        font-size: 0.95rem;
+    }
+}

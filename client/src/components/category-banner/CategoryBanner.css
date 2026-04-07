@@ -56,3 +56,17 @@
         margin-top: 0.25rem;
     }
 }
+
+/* Mobile Screens */
+@media screen and (max-width: 767px) {
+    .category-banner img{
+        height: 130px;
+    }
+    .category-banner .banner-content h1{
+        font-size: 1.4rem;
+    }
+    .category-banner .banner-content span{
+        font-size: 0.8rem;
+        margin-top: 0.1rem;
+    }
+}
