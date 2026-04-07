@@ -37,6 +37,9 @@
     border-bottom-left-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 8px;
 }
+.navbar .nav-mob-logo{
+    display: none;
+}
 .navbar .mob-nav{
     display: none;
 }
@@ -82,55 +85,63 @@
 }
 
 /* Media Queries */
-@media (max-width: 992px) {
-  .navbar {
-    padding: 0.5rem 1rem !important;
-  }
-  .navbar-toggler {
-    border: none !important;
-    box-shadow: none !important;
-  }
-  .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  }
-  .offcanvas {
-    background: #e4e4e4;
-    width: 70% !important;
-  }
-  .offcanvas .logo {
-    width: 100px;
-  }
-  .offcanvas .centered-logo {
-    display: none;
-  }
-  /* .offcanvas .nav-link {
-    color: #fff !important;
-    margin: 0.5rem 0;
-    font-size: calc(0.9rem + 0.5vw);
-    font-weight: 600;
-    width: max-content;
-  }
-  .offcanvas .nav-link.active {
-    border-bottom: 2px solid #fff;
-  }
-  .offcanvas .get-in-touch-btn {
-    background-color: #fff;
-    color: #2e0e4f;
-    text-decoration: none;
-    padding: 0.55rem 1.1rem;
-    border-radius: 6px;
-    font-weight: 550;
-    font-size: calc(0.9rem + 0.5vw);
-    transition: all 0.3s ease;
-    margin-top: 1.5rem;
-    display: block;
-    width: max-content;
-  }
-  .offcanvas .get-in-touch-btn:active{
-    background-color: #2a0d47;
-    color: #fff;
-    box-shadow: rgba(255, 255, 255, 0.278) 0px 3px 8px;
-  } */
+@media screen and (max-width: 992px) {
+    .navbar {
+        padding: 0.8rem 1rem !important;
+    }
+    .navbar .view-products-btn{
+        display: none;
+    }
+    .navbar .nav-mob-logo{
+        display: block;
+    }
+    .navbar .nav-mob-logo img{
+        width: 100px;
+    }
+    .navbar-toggler {
+        border: none !important;
+        box-shadow: none !important;
+    }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    .offcanvas {
+        background: #e4e4e4;
+        width: 70% !important;
+    }
+    .offcanvas .logo {
+        width: 100px;
+    }
+    .offcanvas .centered-logo {
+        display: none;
+    }
+    .offcanvas .nav-link {
+        color: #000 !important;
+        margin: 0.4rem 0;
+        font-size: 1.05rem;
+        font-weight: 600;
+        width: max-content;
+    }
+    .offcanvas .get-in-touch-btn {
+        display: none;
+    }
+    .offcanvas .download-btn{
+        background-color: #000;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 500;
+        border: none;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.4rem 0.8rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+    }
+    .offcanvas .download-btn .download-icon{
+        font-size: 1rem;
+        margin-top: -3px;
+    }
 }
 
 @media screen and (min-width: 1230px) and (max-width: 1399px) {

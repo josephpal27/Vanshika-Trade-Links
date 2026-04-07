@@ -19,6 +19,9 @@ const MyNavbar = () => {
                 <Nav.Link as={NavLink} to="/category" className="view-products-btn" onClick={handleClose}>
                     View Our Products <FaArrowRight className="icon" />
                 </Nav.Link>
+                <Nav.Link as={NavLink} to="/" className="nav-mob-logo">
+                    <img src="/logo.png" alt="logo" loading="eager" className="logo" />
+                </Nav.Link>
             </div>
 
             {/* Toggle button opens Offcanvas */}
@@ -42,10 +45,10 @@ const MyNavbar = () => {
                 <Offcanvas.Body>
                     <Nav className="justify-content-center flex-grow-1 nav">
                         <div className="mob-nav">
-                            <Nav.Link as={NavLink} to="/products" onClick={handleClose}>
+                            <Nav.Link as={NavLink} to="/category" onClick={handleClose}>
                                 View Our Products
                             </Nav.Link>
-                            <Nav.Link as={NavLink} to="/contact" onClick={handleClose}>
+                            <Nav.Link as={NavLink} to="/" onClick={handleClose}>
                                 Get In Touch
                             </Nav.Link>
                         </div>
