@@ -57,3 +57,21 @@
         margin-top: 0.25rem;
     }
 }
+
+/* Mobile Screens */
+@media screen and (max-width: 767px) {
+    .product-details-banner img{
+        height: 140px;
+    }
+    .product-details-banner .banner-content{
+        padding: 0 1rem;
+    }
+    .product-details-banner .banner-content h1{
+        font-size: 1.35rem;
+    }
+    .product-details-banner .banner-content span{
+        font-size: 0.75rem;
+        margin-top: 0.1rem;
+        text-align: center;
+    }
+}

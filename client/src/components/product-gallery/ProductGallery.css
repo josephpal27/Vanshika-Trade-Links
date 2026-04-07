@@ -133,3 +133,34 @@
         margin-left: 0.5rem;
     }
 }
+
+/* Mobile Screens */
+@media screen and (max-width: 767px) {
+    .product-gallery{
+        padding: 1.5rem 1rem;
+    }
+    .gallery-image{
+        width: 100%;
+        padding: 2rem;
+    }
+    .gallery-content{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .gallery-content span{
+        font-size: 1rem;
+    }
+    .gallery-content #product-name{
+        font-size: 1.3rem;
+        margin-top: 0.3rem;
+    }
+    .gallery-content p{
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+    .gallery-content a{
+        font-size: 0.95rem;
+        padding: 0.5rem 1.1rem;
+        margin-top: 1rem;
+    }
+}

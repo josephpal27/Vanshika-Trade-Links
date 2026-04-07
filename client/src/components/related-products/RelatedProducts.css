@@ -183,3 +183,36 @@
         padding: 0.1rem 0.6rem;
     }
 }
+
+/* Mobile Screens */
+@media screen and (max-width: 767px) {
+    .related-products{
+        padding: 1rem 1rem 3rem 1rem;
+    }
+    .related-products h2{
+        font-size: 1.3rem;
+    }
+    .related-products-slider{
+        margin-top: 1rem;
+    }
+    .related-products-slider .swiper{
+        padding: 0.2rem;
+    }
+    .related-products-slider .card-desc{
+        padding: 0.5rem 0.5rem;
+    }
+    .related-products-slider span{
+        font-size: 0.9rem;
+    }
+    .related-products-slider a{
+        font-size: 0.7rem;
+        padding: 0.3rem 0.7rem;
+        margin-top: 0.5rem;
+    }
+
+    /* Custom Navigation */
+    .related-products-slider .prev,
+    .related-products-slider .next{
+        display: none;
+    }
+}

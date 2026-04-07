@@ -37,6 +37,18 @@ const RelatedProducts = () => {
                             prevEl: ".prev",
                             nextEl: ".next",
                         }}
+                        breakpoints={{
+                            0: {
+                                slidesPerView: 2,
+                                spaceBetween: 10, // mobile
+                            },
+                            768: {
+                                slidesPerView: 3, // tablet
+                            },
+                            1024: {
+                                slidesPerView: 4, // desktop
+                            },
+                        }}
                     >
                         {
                             relatedProducts.map((product, index) => {
