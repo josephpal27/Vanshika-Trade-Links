@@ -168,3 +168,50 @@
         letter-spacing: 1px;
     }
 }
+
+/* Mobile Screens */
+@media screen and (max-width: 767px) {
+    .enquiry-details{
+        padding: 1.5rem 1rem 3rem 1rem;
+    }
+    .enquiry-details h2{
+        font-size: 1.3rem;
+    }
+    .enquiry-product{
+        margin-top: 1.2rem;
+        padding: 0.8rem;
+        align-items: center;
+    }
+    .enquiry-product .card-image{
+        width: 25%;
+    }
+    .enquiry-product .card-content{
+        width: 70%;
+    }
+    .enquiry-product .card-content span{
+        font-size: 0.8rem;
+    }
+    .enquiry-product .card-content h3{
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+    }
+
+    .enquiry-form{
+        margin-top: 1.5rem;
+    }
+    .enquiry-form form input,
+    .enquiry-form form textarea{
+        margin-bottom: 1rem;
+        padding: 1rem 0.8rem;
+        font-size: 1rem;
+        width: 100%;
+    }
+    .enquiry-form form textarea{
+        min-height: 8rem;
+        max-height: 11rem;
+    }
+    .enquiry-form form button{
+        padding: 0.9rem 1.5rem;
+        font-size: 1rem;
+    }
+}

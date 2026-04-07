@@ -27,6 +27,7 @@
     font-weight: 500;
     font-size: 0.9rem;
     margin-top: 0.4rem;
+    text-align: center;
 }
 .enquiry-banner .banner-content span a{
     color: #fff;
@@ -54,5 +55,23 @@
     .enquiry-banner .banner-content span{
         font-size: 0.7rem;
         margin-top: 0.25rem;
+    }
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 767px) {
+    .enquiry-banner img{
+        height: 140px;
+        margin-top: 2px;
+    }
+    .enquiry-banner .banner-content{
+        padding: 0 1rem;
+    }
+    .enquiry-banner .banner-content h1{
+        font-size: 1.4rem;
+    }
+    .enquiry-banner .banner-content span{
+        font-size: 0.8rem;
+        margin-top: 0.1rem;
     }
 }

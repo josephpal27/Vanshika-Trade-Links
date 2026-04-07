@@ -27,6 +27,7 @@
     font-weight: 500;
     font-size: 0.9rem;
     margin-top: 0.4rem;
+    text-align: center;
 }
 .category-banner .banner-content span a{
     color: #fff;
@@ -60,7 +61,11 @@
 /* Mobile Screens */
 @media screen and (max-width: 767px) {
     .category-banner img{
-        height: 130px;
+        height: 140px;
+        margin-top: 2px;
+    }
+    .category-banner .banner-content{
+        padding: 0 1rem;
     }
     .category-banner .banner-content h1{
         font-size: 1.4rem;
