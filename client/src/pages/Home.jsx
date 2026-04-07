@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import BestSellers from "../components/best-sellers/BestSellers"
 import HomeBanner from "../components/home-banner/HomeBanner"
 import LatestCollections from "../components/latest-collections/LatestCollections"
@@ -8,6 +9,11 @@ import TrendingProducts from "../components/trending-products/TrendingProducts"
 const Home = () => {
     return (
         <>
+            <Helmet>
+                <title>Vanshika Trade Links</title>
+                <meta name="description" content="" />
+            </Helmet>
+            
             <HomeBanner />
             <TrendingProducts />
             <SpecialProducts />

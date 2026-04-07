@@ -1,6 +1,7 @@
 import { StrictMode, lazy, Suspense } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { HelmetProvider } from "react-helmet-async";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import './index.css'; // Import custom CSS
 import "react-toastify/dist/ReactToastify.css"; // Import Toastify CSS
@@ -50,6 +51,8 @@ let routers = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={routers} />
+    <HelmetProvider>
+      <RouterProvider router={routers} />
+    </HelmetProvider>
   </StrictMode>,
 )

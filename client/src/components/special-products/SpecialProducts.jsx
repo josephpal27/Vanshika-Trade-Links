@@ -8,22 +8,22 @@ import './SpecialProducts.css';
 let specialProductsData = [
     {
         id: 1,
-        image: "/images/special-products/1.jpg",
+        image: "/images/special-products/1.avif",
         title: "SPARTA FREELANCE - <br/> SINK COCK DUAL OUTLET",
     },
     {
         id: 1,
-        image: "/images/special-products/2.png",
+        image: "/images/special-products/2.avif",
         title: "ELBOW ACTION <br/> PILLAR COCK",
     },
     {
         id: 1,
-        image: "/images/special-products/3.png",
+        image: "/images/special-products/3.avif",
         title: "SPARTA FREELANCE - <br/> SINK MIXTURE DUAL OUTLET",
     },
     {
         id: 1,
-        image: "/images/special-products/4.png",
+        image: "/images/special-products/4.avif",
         title: "SPARTA FREELANCEELBOW <br/> ACTION BIB COCK",
     },
 ]

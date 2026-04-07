@@ -8,17 +8,17 @@ import "./HomeBanner.css";
 let HomebannerData = [
     {
         id: 1,
-        image: "/images/banners/home-banner-1.png",
+        image: "/images/banners/home-banner-1.avif",
         title: "CRAFTED TO COMPLEMENT YOUR <br/> <b>CONTEMPORARY BATH</b>"
     },
     {
         id: 2,
-        image: "/images/banners/home-banner-2.png",
+        image: "/images/banners/home-banner-2.avif",
         title: "BUILD STRONG PERFORM LONGER <br/> <b>SOLEX STAINLESS STEEL VALVE</b>"
     },
     {
         id: 3,
-        image: "/images/banners/home-banner-3.png",
+        image: "/images/banners/home-banner-3.avif",
         title: "PRECISION WATER CONTROL <br/> <b>FOR HEALTH CARE SPACES</b>"
     },
 ]

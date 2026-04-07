@@ -7,42 +7,42 @@ import './ProductsShowcase.css';
 let productsShowcaseData = [
     {
         id: 1,
-        image: "/images/products-showcase/1.png",
+        image: "/images/products-showcase/1.avif",
         title: "Single Lever Basin Mixer Concealed <br/> Divertor Body With Upper Trim & Spout",
     },
     {
         id: 2,
-        image: "/images/products-showcase/2.png",
+        image: "/images/products-showcase/2.avif",
         title: "Single Lever Concealed <br/> Divertor Body With Upper Trim",
     },
     {
         id: 3,
-        image: "/images/products-showcase/1.png",
+        image: "/images/products-showcase/1.avif",
         title: "Push Bib <br/> Cock",
     },
     {
         id: 4,
-        image: "/images/products-showcase/4.png",
+        image: "/images/products-showcase/4.avif",
         title: "Sparta - 12” Single <br/> Lever Basin Mixer",
     },
     {
         id: 5,
-        image: "/images/products-showcase/5.png",
+        image: "/images/products-showcase/5.avif",
         title: "Flova - Sink <br/> Cock Dual Outlet",
     },
     {
         id: 6,
-        image: "/images/products-showcase/6.png",
+        image: "/images/products-showcase/6.avif",
         title: "Sparta - Sink <br/> Mixture Dual Outlet",
     },
     {
         id: 7,
-        image: "/images/products-showcase/7.png",
+        image: "/images/products-showcase/7.avif",
         title: "Sparta - Single Lever <br/> Wall Mixer With Bend",
     },
     {
         id: 8,
-        image: "/images/products-showcase/8.jpg",
+        image: "/images/products-showcase/8.avif",
         title: "Sparta - Telephonic <br/> Shower",
     },
 ]

@@ -5,27 +5,27 @@ let trendingProductsData = [
     {
         id: 1,
         title: "SPARTA FREELANCE - <br/> SINK COCK",
-        image: "/images/trending-products/1.png",
+        image: "/images/trending-products/1.avif",
     },
     {
         id: 2,
         title: "SPARTA FREELANCE - <br/> SWAN NECK",
-        image: "/images/trending-products/2.png",
+        image: "/images/trending-products/2.avif",
     },
     {
         id: 3,
         title: "FLOVA FREELANCE - <br/> SINK MIXTURE",
-        image: "/images/trending-products/3.png",
+        image: "/images/trending-products/3.avif",
     },
     {
         id: 4,
         title: "SPARTA FREELANCE - <br/> SINGLE LEVER SINK MIXTURE",
-        image: "/images/trending-products/4.png",
+        image: "/images/trending-products/4.avif",
     },
     {
         id: 5,
         title: "SPARTA FREELANCE - SINGLE LEVER KITCHEN MIXTURE TABLE TOP",
-        image: "/images/trending-products/5.png",
+        image: "/images/trending-products/5.avif",
     },
 ]
 

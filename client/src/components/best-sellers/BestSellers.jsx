@@ -7,47 +7,47 @@ import './BestSellers.css';
 let bestSellersData = [
     {
         id: 1,
-        image: "/images/best-sellers/1.png",
+        image: "/images/best-sellers/1.avif",
         title: "OVER HEAD SHOWER <br/> (MILANO)",
     },
     {
         id: 2,
-        image: "/images/best-sellers/2.png",
+        image: "/images/best-sellers/2.avif",
         title: "HEALTH FRAUCET <br/> SPARTA",
     },
     {
         id: 3,
-        image: "/images/best-sellers/3.png",
+        image: "/images/best-sellers/3.avif",
         title: `OVERHEAD RAIN <br/> SHOWER 6"`,
     },
     {
         id: 4,
-        image: "/images/best-sellers/4.png",
+        image: "/images/best-sellers/4.avif",
         title: "MINI ANGLE <br/> VALVE",
     },
     {
         id: 5,
-        image: "/images/best-sellers/5.png",
+        image: "/images/best-sellers/5.avif",
         title: "OVERHEAD SHOWER <br/> (FLOVA)",
     },
     {
         id: 6,
-        image: "/images/best-sellers/6.png",
+        image: "/images/best-sellers/6.avif",
         title: "HEALTH FAUCETS <br/> SYMPHONY",
     },
     {
         id: 7,
-        image: "/images/best-sellers/7.png",
+        image: "/images/best-sellers/7.avif",
         title: "OVER HEAD SHOWER <br/> (ECOLONE)",
     },
     {
         id: 8,
-        image: "/images/best-sellers/8.png",
+        image: "/images/best-sellers/8.avif",
         title: "OVER HEAD <br/> SHOWER EVENT",
     },
     {
         id: 9,
-        image: "/images/best-sellers/9.png",
+        image: "/images/best-sellers/9.avif",
         title: "TELEPHONIC <br/> SHOWER FLOVA",
     },
 ]

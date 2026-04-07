@@ -14,7 +14,7 @@ const ProductDetailsBanner = () => {
     return (
         <>
             <section className="product-details-banner">
-                <img src="/images/banners/product-details-banner.png" alt="Products Banner" loading="lazy" />
+                <img src="/images/banners/product-details-banner.avif" alt="Products Banner" loading="lazy" />
                 <div className="banner-content">
                     <h1>{product?.name || "Product Name"}</h1>
                     <span>
