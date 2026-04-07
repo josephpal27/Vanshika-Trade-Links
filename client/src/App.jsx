@@ -5,7 +5,6 @@ import MyNavbar from './components/navbar/Navbar';
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from './components/footer/Footer';
 import { ToastContainer } from "react-toastify";
-// // import PageTitle from "./components/page-title/PageTitle";
 // import AOS from "aos";
 
 const App = () => {
@@ -32,7 +31,6 @@ const App = () => {
 
   return (
     <>
-      {/* <PageTitle/> */}
       <MyNavbar />
       <Header />
       <Outlet />
