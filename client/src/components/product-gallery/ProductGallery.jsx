@@ -25,9 +25,9 @@ const ProductGallery = () => {
                     <span id="product-name">
                         {product?.name || "Product Name"}
                     </span>
-                    <p>
+                    {/* <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum tempore libero iusto non temporibus saepe pariatur impedit consequatur quis fugiat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime ullam ratione nostrum perferendis a quia commodi quisquam eos velit vel.
-                    </p>
+                    </p> */}
                     <Link to={`/category/${categorySlug}/${productSlug}/enquiry`}>
                         Enquire Now <FaArrowRight className="icon" />
                     </Link>
