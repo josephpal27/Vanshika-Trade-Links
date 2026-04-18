@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
@@ -48,7 +48,7 @@ const MyNavbar = () => {
                             <Nav.Link as={NavLink} to="/category" onClick={handleClose}>
                                 View Our Products
                             </Nav.Link>
-                            <Nav.Link as={NavLink} to="/" onClick={handleClose}>
+                            <Nav.Link as={NavLink} to="/contact" onClick={handleClose}>
                                 Get In Touch
                             </Nav.Link>
                         </div>
@@ -62,7 +62,7 @@ const MyNavbar = () => {
                     {/* Right Side */}
                     <div className="right-btn-wrapper">
                         <button className="download-btn">Download <ImDownload className="download-icon" /></button>
-                        <button className="get-in-touch-btn">Get In Touch</button>
+                        <Link to="/contact"><button className="get-in-touch-btn">Get In Touch</button></Link>
                     </div>
                 </Offcanvas.Body>
             </Navbar.Offcanvas>
