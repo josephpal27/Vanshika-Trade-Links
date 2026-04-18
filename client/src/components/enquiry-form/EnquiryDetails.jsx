@@ -22,7 +22,7 @@ const EnquiryDetails = () => {
     const form = e.target;
     const formData = new FormData(form);
 
-    formData.append("access_key", "9ae99fce-f6f9-4a38-ab5b-7caafb88fce6"); // Web3Forms access key
+    formData.append("access_key", "8c384a85-166b-4af3-a04c-cfa5ad93674a"); // Web3Forms access key
     formData.append("subject", "New Product Enquiry");
     formData.append("from_name", "Vanshika Trade Links");
 
