@@ -47,4 +47,10 @@ export const categoryData = [
     image: "/images/category/flova.avif",
     slug: "flova-series",
   },
+  {
+    id: 9,
+    name: "Sparta Series",
+    image: "/images/category/sparta.avif",
+    slug: "sparta-series",
+  },
 ];
