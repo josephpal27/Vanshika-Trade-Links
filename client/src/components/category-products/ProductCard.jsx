@@ -9,17 +9,19 @@ const ProductCard = ({ product, categorySlug }) => {
     return (
         <>
             <div className="product-card">
-                <div className="card-image">
-                    {!imgLoaded && <div className="image-skeleton"></div>}
-                    <img
-                        src={product.image}
-                        alt={product.name}
-                        loading="lazy"
-                        onLoad={() => setImgLoaded(true)}
-                        onError={() => setImgLoaded(true)}
-                        className={imgLoaded ? "img-loaded" : "img-loading"}
-                    />
-                </div>
+                <Link to={`/category/${categorySlug}/${product.slug}`}>
+                    <div className="card-image">
+                        {!imgLoaded && <div className="image-skeleton"></div>}
+                        <img
+                            src={product.image}
+                            alt={product.name}
+                            loading="lazy"
+                            onLoad={() => setImgLoaded(true)}
+                            onError={() => setImgLoaded(true)}
+                            className={imgLoaded ? "img-loaded" : "img-loading"}
+                        />
+                    </div>
+                </Link>
                 <div className="card-desc">
                     <span>{product.name}</span>
                     <Link to={`/category/${categorySlug}/${product.slug}`}>
