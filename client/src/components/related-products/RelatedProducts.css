@@ -46,7 +46,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.related-products-slider a{
+.related-products-slider .card-desc a{
     background-color: #000;
     color: #fff;
     text-decoration: none;
@@ -59,16 +59,16 @@
     font-weight: 500;
     border-radius: 4px;
 }
-.related-products-slider a:hover{
+.related-products-slider .card-desc a:hover{
     background-color: #1e1e1e;
 }
-.related-products-slider a .icon{
+.related-products-slider .card-desc a .icon{
     font-size: 0.8rem;
     margin-left: -0.7rem;
     opacity: 0;
     transition: all 0.2s ease;
 }
-.related-products-slider a:hover .icon{
+.related-products-slider .card-desc a:hover .icon{
     margin-left: 0.4rem;
     opacity: 1;
 }
@@ -128,11 +128,11 @@
         padding: 0.3rem 0.85rem;
         margin-top: 0.7rem;
     }
-    .related-products-slider a .icon{
+    .related-products-slider .card-desc a .icon{
         font-size: 0.7rem;
         margin-left: -0.6rem;
     }
-    .related-products-slider a:hover .icon{
+    .related-products-slider .card-desc a:hover .icon{
         margin-left: 0.35rem;
     }
 
@@ -163,16 +163,16 @@
     .related-products-slider span{
         font-size: 1rem;
     }
-    .related-products-slider a{
+    .related-products-slider .card-desc a{
         font-size: 0.7rem;
         padding: 0.3rem 0.8rem;
         margin-top: 0.6rem;
     }
-    .related-products-slider a .icon{
+    .related-products-slider .card-desc a .icon{
         font-size: 0.6rem;
         margin-left: -0.5rem;
     }
-    .related-products-slider a:hover .icon{
+    .related-products-slider .card-desc a:hover .icon{
         margin-left: 0.3rem;
     }
 
@@ -204,7 +204,7 @@
     .related-products-slider span{
         font-size: 0.9rem;
     }
-    .related-products-slider a{
+    .related-products-slider .card-desc a{
         font-size: 0.7rem;
         padding: 0.3rem 0.7rem;
         margin-top: 0.5rem;

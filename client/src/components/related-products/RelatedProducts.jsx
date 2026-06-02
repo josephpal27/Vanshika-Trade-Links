@@ -55,7 +55,9 @@ const RelatedProducts = () => {
                                 return (
                                     <SwiperSlide key={index}>
                                         <div className="image-box">
-                                            <img src={product.image} alt={product.name} loading="lazy" />
+                                            <Link to={`/category/${categorySlug}/${product.slug}`}>
+                                                <img src={product.image} alt={product.name} loading="lazy" />
+                                            </Link>
                                         </div>
                                         <div className="card-desc">
                                             <span>{product.name}</span>
