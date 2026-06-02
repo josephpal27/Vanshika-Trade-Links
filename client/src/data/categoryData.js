@@ -35,4 +35,10 @@ export const categoryData = [
     image: "/images/category/cosmo-jr.avif",
     slug: "cosmo-jr-series",
   },
+  {
+    id: 7,
+    name: "Event Series",
+    image: "/images/category/event.avif",
+    slug: "event-series",
+  },
 ];

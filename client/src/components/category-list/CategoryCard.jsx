@@ -12,7 +12,7 @@ const CategoryCard = ({ category, index }) => {
                     {!imgLoaded && <div className="image-skeleton"></div>}
                     <img
                         src={category.image}
-                        alt="Category Image"
+                        alt={category.name}
                         loading="lazy"
                         onLoad={() => setImgLoaded(true)}
                         onError={() => setImgLoaded(true)}
