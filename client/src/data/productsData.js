@@ -806,5 +806,29 @@ export const productsData = {
       image: "/images/products/event/wall-mixer-divertor-spout-w-o-tele-shower-flexi-tube-hook-3-in-1.png",
       slug: "wall-mixer-divertor-spout-w-o-tele-shower-flexible-tube-hook-3-in-1",
     },
+    {
+      id: 19,
+      name: "Single Lever Concealed Bath Mixer Uppertrim",
+      image: "/images/products/event/single-lever-concealed-bath-mixer-uppertrim.png",
+      slug: "single-lever-concealed-bath-mixer-uppertrim",
+    },
+    {
+      id: 20,
+      name: "Overhead Shower with Arm",
+      image: "/images/products/event/overhead-shower-with-arm.png",
+      slug: "overhead-shower-with-arm",
+    },
+    {
+      id: 21,
+      name: "Plain Spout",
+      image: "/images/products/event/plain-spout.png",
+      slug: "plain-spout",
+    },
+    {
+      id: 22,
+      name: "Button Spout",
+      image: "/images/products/event/button-spout.png",
+      slug: "button-spout",
+    },
   ],
 };
