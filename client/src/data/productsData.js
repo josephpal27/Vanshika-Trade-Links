@@ -831,4 +831,13 @@ export const productsData = {
       slug: "button-spout",
     },
   ],
+
+  "flova-series": [
+    {
+      id: 1,
+      name: "Pillar Cock Regular",
+      image: "/images/products/flova/pillar-cock-regular.png",
+      slug: "pillar-cock-regular",
+    },
+  ],
 };

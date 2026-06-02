@@ -41,4 +41,10 @@ export const categoryData = [
     image: "/images/category/event.avif",
     slug: "event-series",
   },
+  {
+    id: 8,
+    name: "Flova Series",
+    image: "/images/category/flova.avif",
+    slug: "flova-series",
+  },
 ];
