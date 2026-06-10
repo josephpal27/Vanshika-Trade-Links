@@ -53,4 +53,10 @@ export const categoryData = [
     image: "/images/category/sparta.avif",
     slug: "sparta-series",
   },
+  {
+    id: 10,
+    name: "Athens Series",
+    image: "/images/category/athens.avif",
+    slug: "athens-series",
+  },
 ];
